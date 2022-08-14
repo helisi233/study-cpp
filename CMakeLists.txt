@@ -3,4 +3,4 @@ project(study_cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(study_cpp chapter01/demo0.cpp)
+add_executable(study_cpp chapter02/Code06_MiscellaneousOperator.cpp)

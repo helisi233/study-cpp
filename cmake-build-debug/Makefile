@@ -122,32 +122,32 @@ study_cpp/fast:
 	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/build
 .PHONY : study_cpp/fast
 
-chapter01/demo0.obj: chapter01/demo0.cpp.obj
+chapter02/Code06_MiscellaneousOperator.obj: chapter02/Code06_MiscellaneousOperator.cpp.obj
 
-.PHONY : chapter01/demo0.obj
+.PHONY : chapter02/Code06_MiscellaneousOperator.obj
 
 # target to build an object file
-chapter01/demo0.cpp.obj:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter01/demo0.cpp.obj
-.PHONY : chapter01/demo0.cpp.obj
+chapter02/Code06_MiscellaneousOperator.cpp.obj:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter02/Code06_MiscellaneousOperator.cpp.obj
+.PHONY : chapter02/Code06_MiscellaneousOperator.cpp.obj
 
-chapter01/demo0.i: chapter01/demo0.cpp.i
+chapter02/Code06_MiscellaneousOperator.i: chapter02/Code06_MiscellaneousOperator.cpp.i
 
-.PHONY : chapter01/demo0.i
+.PHONY : chapter02/Code06_MiscellaneousOperator.i
 
 # target to preprocess a source file
-chapter01/demo0.cpp.i:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter01/demo0.cpp.i
-.PHONY : chapter01/demo0.cpp.i
+chapter02/Code06_MiscellaneousOperator.cpp.i:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter02/Code06_MiscellaneousOperator.cpp.i
+.PHONY : chapter02/Code06_MiscellaneousOperator.cpp.i
 
-chapter01/demo0.s: chapter01/demo0.cpp.s
+chapter02/Code06_MiscellaneousOperator.s: chapter02/Code06_MiscellaneousOperator.cpp.s
 
-.PHONY : chapter01/demo0.s
+.PHONY : chapter02/Code06_MiscellaneousOperator.s
 
 # target to generate assembly for a file
-chapter01/demo0.cpp.s:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter01/demo0.cpp.s
-.PHONY : chapter01/demo0.cpp.s
+chapter02/Code06_MiscellaneousOperator.cpp.s:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter02/Code06_MiscellaneousOperator.cpp.s
+.PHONY : chapter02/Code06_MiscellaneousOperator.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... study_cpp
 	@echo ... rebuild_cache
-	@echo ... chapter01/demo0.obj
-	@echo ... chapter01/demo0.i
-	@echo ... chapter01/demo0.s
+	@echo ... chapter02/Code06_MiscellaneousOperator.obj
+	@echo ... chapter02/Code06_MiscellaneousOperator.i
+	@echo ... chapter02/Code06_MiscellaneousOperator.s
 .PHONY : help
 
 
