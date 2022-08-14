@@ -1,0 +1,38 @@
+简单例子:
+    1+1=2的例子 代码如下:
+    int sum;        // 定义整型变量 int是integer的缩写
+    int m = 1;      // 定义变量类型
+    int n = 1;      // 定义变量类型
+    sum = m + n;    // 求和赋值
+
+数据类型的内部结构:
+    数据类型决定这个变量所占内存空间的大小和布局方式 该空间能存储的值的范围
+    以及变量能参与的运算
+    存储变量的地址:
+        1010H 1011H 1012H 1013H 1014H 1015H 1016H
+        1     1
+    取1010H位置的值1 + 取1011H位置的值1 = 值2存回到1016H位置
+
+    二进制 八进制 十六进制 十进制
+
+c++中的数据类型:
+    char        字符或整数 8位    1
+    int         整数             4
+    short int   短整数           2
+    long int    长整数           4
+    float       浮点数           4
+    double      双精度浮点数      8
+    long double 长双精度浮点数    8
+    bool        布尔值            1
+    wchar_t     宽字符 国际字符    2
+
+常见数据类型定义:
+    char a[10] = "a";
+    short int s = 97;
+    int m = 97;
+    long int n = 97;
+    float f = 97.0f;
+    double d = 97.0;
+    long double k = 97.0;
+    bool b = true;
+    wchar_t w[10] = L"a";
