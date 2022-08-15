@@ -56,27 +56,27 @@ include CMakeFiles/study_cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/study_cpp.dir/flags.make
 
-CMakeFiles/study_cpp.dir/chapter02/Code06_MiscellaneousOperator.cpp.obj: CMakeFiles/study_cpp.dir/flags.make
-CMakeFiles/study_cpp.dir/chapter02/Code06_MiscellaneousOperator.cpp.obj: ../chapter02/Code06_MiscellaneousOperator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\study-cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/study_cpp.dir/chapter02/Code06_MiscellaneousOperator.cpp.obj"
-	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\study_cpp.dir\chapter02\Code06_MiscellaneousOperator.cpp.obj -c D:\study-cpp\chapter02\Code06_MiscellaneousOperator.cpp
+CMakeFiles/study_cpp.dir/chapter02/Code07_BitOperationIllustrate.cpp.obj: CMakeFiles/study_cpp.dir/flags.make
+CMakeFiles/study_cpp.dir/chapter02/Code07_BitOperationIllustrate.cpp.obj: ../chapter02/Code07_BitOperationIllustrate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\study-cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/study_cpp.dir/chapter02/Code07_BitOperationIllustrate.cpp.obj"
+	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\study_cpp.dir\chapter02\Code07_BitOperationIllustrate.cpp.obj -c D:\study-cpp\chapter02\Code07_BitOperationIllustrate.cpp
 
-CMakeFiles/study_cpp.dir/chapter02/Code06_MiscellaneousOperator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/study_cpp.dir/chapter02/Code06_MiscellaneousOperator.cpp.i"
-	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\study-cpp\chapter02\Code06_MiscellaneousOperator.cpp > CMakeFiles\study_cpp.dir\chapter02\Code06_MiscellaneousOperator.cpp.i
+CMakeFiles/study_cpp.dir/chapter02/Code07_BitOperationIllustrate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/study_cpp.dir/chapter02/Code07_BitOperationIllustrate.cpp.i"
+	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\study-cpp\chapter02\Code07_BitOperationIllustrate.cpp > CMakeFiles\study_cpp.dir\chapter02\Code07_BitOperationIllustrate.cpp.i
 
-CMakeFiles/study_cpp.dir/chapter02/Code06_MiscellaneousOperator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/study_cpp.dir/chapter02/Code06_MiscellaneousOperator.cpp.s"
-	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\study-cpp\chapter02\Code06_MiscellaneousOperator.cpp -o CMakeFiles\study_cpp.dir\chapter02\Code06_MiscellaneousOperator.cpp.s
+CMakeFiles/study_cpp.dir/chapter02/Code07_BitOperationIllustrate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/study_cpp.dir/chapter02/Code07_BitOperationIllustrate.cpp.s"
+	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\study-cpp\chapter02\Code07_BitOperationIllustrate.cpp -o CMakeFiles\study_cpp.dir\chapter02\Code07_BitOperationIllustrate.cpp.s
 
 # Object files for target study_cpp
 study_cpp_OBJECTS = \
-"CMakeFiles/study_cpp.dir/chapter02/Code06_MiscellaneousOperator.cpp.obj"
+"CMakeFiles/study_cpp.dir/chapter02/Code07_BitOperationIllustrate.cpp.obj"
 
 # External object files for target study_cpp
 study_cpp_EXTERNAL_OBJECTS =
 
-study_cpp.exe: CMakeFiles/study_cpp.dir/chapter02/Code06_MiscellaneousOperator.cpp.obj
+study_cpp.exe: CMakeFiles/study_cpp.dir/chapter02/Code07_BitOperationIllustrate.cpp.obj
 study_cpp.exe: CMakeFiles/study_cpp.dir/build.make
 study_cpp.exe: CMakeFiles/study_cpp.dir/linklibs.rsp
 study_cpp.exe: CMakeFiles/study_cpp.dir/objects1.rsp

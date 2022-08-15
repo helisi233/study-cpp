@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/study-cpp/chapter02/Code06_MiscellaneousOperator.cpp">
+		<Unit filename="D:/study-cpp/chapter02/Code07_BitOperationIllustrate.cpp">
 			<Option target="study_cpp"/>
 		</Unit>
 		<Unit filename="D:/study-cpp/CMakeLists.txt">

@@ -122,32 +122,32 @@ study_cpp/fast:
 	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/build
 .PHONY : study_cpp/fast
 
-chapter02/Code06_MiscellaneousOperator.obj: chapter02/Code06_MiscellaneousOperator.cpp.obj
+chapter02/Code07_BitOperationIllustrate.obj: chapter02/Code07_BitOperationIllustrate.cpp.obj
 
-.PHONY : chapter02/Code06_MiscellaneousOperator.obj
+.PHONY : chapter02/Code07_BitOperationIllustrate.obj
 
 # target to build an object file
-chapter02/Code06_MiscellaneousOperator.cpp.obj:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter02/Code06_MiscellaneousOperator.cpp.obj
-.PHONY : chapter02/Code06_MiscellaneousOperator.cpp.obj
+chapter02/Code07_BitOperationIllustrate.cpp.obj:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter02/Code07_BitOperationIllustrate.cpp.obj
+.PHONY : chapter02/Code07_BitOperationIllustrate.cpp.obj
 
-chapter02/Code06_MiscellaneousOperator.i: chapter02/Code06_MiscellaneousOperator.cpp.i
+chapter02/Code07_BitOperationIllustrate.i: chapter02/Code07_BitOperationIllustrate.cpp.i
 
-.PHONY : chapter02/Code06_MiscellaneousOperator.i
+.PHONY : chapter02/Code07_BitOperationIllustrate.i
 
 # target to preprocess a source file
-chapter02/Code06_MiscellaneousOperator.cpp.i:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter02/Code06_MiscellaneousOperator.cpp.i
-.PHONY : chapter02/Code06_MiscellaneousOperator.cpp.i
+chapter02/Code07_BitOperationIllustrate.cpp.i:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter02/Code07_BitOperationIllustrate.cpp.i
+.PHONY : chapter02/Code07_BitOperationIllustrate.cpp.i
 
-chapter02/Code06_MiscellaneousOperator.s: chapter02/Code06_MiscellaneousOperator.cpp.s
+chapter02/Code07_BitOperationIllustrate.s: chapter02/Code07_BitOperationIllustrate.cpp.s
 
-.PHONY : chapter02/Code06_MiscellaneousOperator.s
+.PHONY : chapter02/Code07_BitOperationIllustrate.s
 
 # target to generate assembly for a file
-chapter02/Code06_MiscellaneousOperator.cpp.s:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter02/Code06_MiscellaneousOperator.cpp.s
-.PHONY : chapter02/Code06_MiscellaneousOperator.cpp.s
+chapter02/Code07_BitOperationIllustrate.cpp.s:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter02/Code07_BitOperationIllustrate.cpp.s
+.PHONY : chapter02/Code07_BitOperationIllustrate.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... study_cpp
 	@echo ... rebuild_cache
-	@echo ... chapter02/Code06_MiscellaneousOperator.obj
-	@echo ... chapter02/Code06_MiscellaneousOperator.i
-	@echo ... chapter02/Code06_MiscellaneousOperator.s
+	@echo ... chapter02/Code07_BitOperationIllustrate.obj
+	@echo ... chapter02/Code07_BitOperationIllustrate.i
+	@echo ... chapter02/Code07_BitOperationIllustrate.s
 .PHONY : help
 
 

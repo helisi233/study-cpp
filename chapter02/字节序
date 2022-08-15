@@ -1,0 +1,9 @@
+一个字(32位机器采用32bits字长4bytes)在内存中
+两个传统:
+    大端法(Big Endian) 大多数IBM机器 Internet传输
+    0x100 0x101 0x102 0x103
+    01    23    45    67
+
+    小端法(Little Endian) Intel兼容机
+    0x100 0x101 0x102 0x103
+    67    45    23    01
