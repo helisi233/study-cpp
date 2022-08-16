@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/study-cpp/chapter02/Code07_BitOperationIllustrate.cpp">
+		<Unit filename="D:/study-cpp/chapter03/Code04_Vector.cpp">
 			<Option target="study_cpp"/>
 		</Unit>
 		<Unit filename="D:/study-cpp/CMakeLists.txt">

@@ -1,0 +1,16 @@
+简单数组
+    简单数组,因为容量有限,无法实现动态扩容插入元素
+    int arr[4] = {1,2,3,4};
+    arr[4] = 5; // error
+
+动态数组 vector
+    使用vector容器,实现动态扩容插入元素
+    动态数组存储的元素必须类型相同 不支持混合类型
+
+    使用:
+        需要使用#include<vector>头文件
+        vector<type> array_name = {};
+
+        vector尾添加操作push_back(element);
+        获取容量capacity()
+        获取元素个数size()

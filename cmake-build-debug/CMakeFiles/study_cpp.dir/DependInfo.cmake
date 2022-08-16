@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/study-cpp/chapter02/Code07_BitOperationIllustrate.cpp" "D:/study-cpp/cmake-build-debug/CMakeFiles/study_cpp.dir/chapter02/Code07_BitOperationIllustrate.cpp.obj"
+  "D:/study-cpp/chapter03/Code04_Vector.cpp" "D:/study-cpp/cmake-build-debug/CMakeFiles/study_cpp.dir/chapter03/Code04_Vector.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

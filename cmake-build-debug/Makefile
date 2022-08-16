@@ -122,32 +122,32 @@ study_cpp/fast:
 	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/build
 .PHONY : study_cpp/fast
 
-chapter02/Code07_BitOperationIllustrate.obj: chapter02/Code07_BitOperationIllustrate.cpp.obj
+chapter03/Code04_Vector.obj: chapter03/Code04_Vector.cpp.obj
 
-.PHONY : chapter02/Code07_BitOperationIllustrate.obj
+.PHONY : chapter03/Code04_Vector.obj
 
 # target to build an object file
-chapter02/Code07_BitOperationIllustrate.cpp.obj:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter02/Code07_BitOperationIllustrate.cpp.obj
-.PHONY : chapter02/Code07_BitOperationIllustrate.cpp.obj
+chapter03/Code04_Vector.cpp.obj:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter03/Code04_Vector.cpp.obj
+.PHONY : chapter03/Code04_Vector.cpp.obj
 
-chapter02/Code07_BitOperationIllustrate.i: chapter02/Code07_BitOperationIllustrate.cpp.i
+chapter03/Code04_Vector.i: chapter03/Code04_Vector.cpp.i
 
-.PHONY : chapter02/Code07_BitOperationIllustrate.i
+.PHONY : chapter03/Code04_Vector.i
 
 # target to preprocess a source file
-chapter02/Code07_BitOperationIllustrate.cpp.i:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter02/Code07_BitOperationIllustrate.cpp.i
-.PHONY : chapter02/Code07_BitOperationIllustrate.cpp.i
+chapter03/Code04_Vector.cpp.i:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter03/Code04_Vector.cpp.i
+.PHONY : chapter03/Code04_Vector.cpp.i
 
-chapter02/Code07_BitOperationIllustrate.s: chapter02/Code07_BitOperationIllustrate.cpp.s
+chapter03/Code04_Vector.s: chapter03/Code04_Vector.cpp.s
 
-.PHONY : chapter02/Code07_BitOperationIllustrate.s
+.PHONY : chapter03/Code04_Vector.s
 
 # target to generate assembly for a file
-chapter02/Code07_BitOperationIllustrate.cpp.s:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter02/Code07_BitOperationIllustrate.cpp.s
-.PHONY : chapter02/Code07_BitOperationIllustrate.cpp.s
+chapter03/Code04_Vector.cpp.s:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter03/Code04_Vector.cpp.s
+.PHONY : chapter03/Code04_Vector.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... study_cpp
 	@echo ... rebuild_cache
-	@echo ... chapter02/Code07_BitOperationIllustrate.obj
-	@echo ... chapter02/Code07_BitOperationIllustrate.i
-	@echo ... chapter02/Code07_BitOperationIllustrate.s
+	@echo ... chapter03/Code04_Vector.obj
+	@echo ... chapter03/Code04_Vector.i
+	@echo ... chapter03/Code04_Vector.s
 .PHONY : help
 
 
