@@ -1,0 +1,94 @@
+基本操作 需要使用C库头文件 #include <string.h>
+    字符串长度 strlen(s)
+        返回字符串s的长度 字符串长度不包括'\0'
+        'h''e''l''l''o''w''o''r''l''d' 字符串长度10bytes
+
+    字符串占用空间 sizeof(s)
+        返回字符串s占用的空间 'h''e''l''l''o''w''o''r''l''d''\0' 占用11bytes
+
+    字符串比较 strcmp(s1,s2)
+        如果s1和s2是相同的返回0
+        如果s1<s2 返回值小于0
+        如果s1>s2 返回值大于0
+        两个字符串自左向右逐个字符相比(按ASCII值大小比较) 直到出现不同的字符或遇\0为止
+        "A"<"B" "A"<"AB" "Apple"<"Banana" "A"<"a" "compare"<"computer"
+
+    字符串拷贝 strcpy(s1,s2)
+        复制字符串s2到字符串s1
+
+    复制指定长度字符串 strncpy(s1,s2,n)
+        将字符串s2中前n个字符拷贝到s1中 从s1开头位置开始
+
+    字符串拼接 strcat(s1,s2)
+        将字符串s2接到s1后面
+
+    查找字符 strchr(s1,ch)
+        指向字符串s1中字符ch第一次出现的位置
+
+    查找字符串 strstr(s1,s2)
+        指向字符串s1中字符串s2的第一次出现的位置
+
+可能存在的问题
+    接收存储参数时没有考虑边界问题
+        strcat(s1, "helloworld1") 假设s1[11]占用11个字节
+        输入"helloworld1"超过了s1能承载的最大长度 造成s1范围外的内存被修改-缓冲区溢出
+        在预期范围外的内存被修改导致程序的意义被修改
+
+    解决方法:
+        使用对应字符串API的安全版本
+        strnlen_s strcpy_s strncpy_s strcat_s
+
+    strncpy_s和strncpy的不同:
+        strncpy只是将新字符拷贝到目标位置
+        strncpy_s会将目标字符串清空然后将新字符拷贝过去
+
+    strnlen_s:
+        当处理后的字符串超过目标值时 返回0
+
+C语言中原始字符串的操作在安全性和效率存在一定问题
+    缓冲区溢出问题举例
+        char strHelloWorld1[11] = {"helloworld"};
+        char strHelloWorld2[11] = {'h','e','l','l','o','w','o','r','l','d','\0'};
+        strcat(strHelloWorld2, "Welcome to the C++'s world")
+    strlen的效率可以提升
+        空间换时间
+        举例
+            redis的字符串设计sdshdr结构
+            sdshdr结构 => {free:空闲字符数 len:当前存储字符数 buf:存储的具体数据}
+            在redis中会根据free和len自动判断 扩容 追加等操作
+
+C++中的新型字符串-string简介
+    C++标准库中提供了string类型专门表示字符串
+        #include <string>
+        using namespace std;
+    使用string可以更为方便和安全的管理字符串
+    定义字符串变量
+        string s; //定义空字符串
+        string s = "helloworld"; //定义并初始化
+        string s("helloworld");
+        string s = string("helloworld");
+    获取字符串的长度
+        cout << s.length() << endl;
+        cout << s.size() << endl;
+        cout << s.capacity() << endl;
+    字符串比较
+        == != > >= < <=
+        string s1="hello",s2="world";
+        cout << (s1 == s2) << endl;
+        cout << (s1 != s2) << endl;
+    转换为C风格的字符串
+        const char *c_str1 = s1.c_str();
+        cout << "The C-style string c_str1 is: " << c_str1 << endl;
+    随机访问 获取字符串中某个字符
+        string s = "hello";
+        s[0] = "h";
+    字符串拷贝
+        string s1 = "hello";
+        string s2 = s1; // 将s1拷贝到s2
+    字符串连接
+        string s1 = "hello",s2 = "world";
+        string s3 = s1+s2; // s3:helloworld
+        s1 += s2; // s1:helloworld
+    string结合了C++的新特性
+    使用起来比原始的C风格方法跟安全和方便
+    对性能要求不是特别高的常见可以使用

@@ -3,4 +3,4 @@ project(study_cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(study_cpp chapter03/Code04_Vector.cpp)
+add_executable(study_cpp chapter03/Code09_CppString.cpp)

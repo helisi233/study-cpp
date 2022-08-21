@@ -12,18 +12,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fc29ac6-143d-4eaf-9b31-80477cae1e9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter03/Code01_Array.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter03/Code02_ArrayCURD.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter03/Code03_2DArray.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter03/Code04_Vector.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter03/动态数组vector" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter03/基础容器-数组" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter03/数组的增删改查及二维数组" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter03/Code05_StrCharArray.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter03/Code06_StringAndPointer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter03/Code07_StringBasicOperate.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter03/Code08_StringBasicSafeOperate.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter03/Code09_CppString.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter03/字符串和字符数组" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter03/字符串的基本操作和String" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter03/字符串的指针表示" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter03/Code04_Vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter03/Code04_Vector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter03/动态数组vector" beforeDir="false" afterPath="$PROJECT_DIR$/chapter03/动态数组vector" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/chapter03/Code04_Vector.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/chapter03/Code04_Vector.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/depend.make" afterDir="false" />
@@ -31,7 +35,7 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/study_cpp.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/study_cpp.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/study_cpp.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/study_cpp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/study_cpp.exe" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,20 +59,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter03/动态数组vector">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter03/字符串的基本操作和String">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="1137">
+              <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter03/Code04_Vector.cpp">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter03/Code09_CppString.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="217">
+              <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
               <folding>
                 <element signature="e#41#60#0" expanded="true" />
               </folding>
@@ -109,15 +113,23 @@
         <option value="$PROJECT_DIR$/chapter03/数组的增删改查及二维数组" />
         <option value="$PROJECT_DIR$/chapter03/动态数组vector" />
         <option value="$PROJECT_DIR$/chapter03/Code04_Vector.cpp" />
+        <option value="$PROJECT_DIR$/chapter03/Code05_StrCharArray.cpp" />
+        <option value="$PROJECT_DIR$/chapter03/字符串" />
+        <option value="$PROJECT_DIR$/chapter03/Code06_StringAndPointer.cpp" />
+        <option value="$PROJECT_DIR$/chapter03/字符串的指针表示" />
+        <option value="$PROJECT_DIR$/chapter03/Code07_StringBasicOperate.cpp" />
+        <option value="$PROJECT_DIR$/chapter03/Code08_StringBasicSafeOperate.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/chapter03/Code09_CppString.cpp" />
+        <option value="$PROJECT_DIR$/chapter03/字符串的基本操作和String" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="265" />
-    <option name="y" value="48" />
-    <option name="width" value="1465" />
-    <option name="height" value="980" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="240" />
+    <option name="y" value="65" />
+    <option name="width" value="1424" />
+    <option name="height" value="954" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -125,7 +137,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -142,6 +153,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,30 +196,34 @@
       <workItem from="1660282597824" duration="593000" />
       <workItem from="1660429421987" duration="13930000" />
       <workItem from="1660533012915" duration="9889000" />
-      <workItem from="1660601164238" duration="10052000" />
+      <workItem from="1660601164238" duration="11334000" />
+      <workItem from="1660698654653" duration="4031000" />
+      <workItem from="1660781581567" duration="3308000" />
+      <workItem from="1661006651902" duration="4064000" />
+      <workItem from="1661034478478" duration="10516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38620000" />
+    <option name="totallyTimeSpent" value="61821000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="212" y="39" width="1172" height="784" extended-state="1" />
+    <frame x="192" y="52" width="1139" height="763" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2145422" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22016652" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297546" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38957056" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38827258" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39936608" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32668713" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.54447854" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32646593" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5436447" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3297546" />
@@ -220,6 +236,27 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/chapter03/Code08_StringBasicSafeOperate.cpp</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/chapter03/Code08_StringBasicSafeOperate.cpp</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/chapter03/Code08_StringBasicSafeOperate.cpp</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/chapter01/编译型语言">
@@ -359,13 +396,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/Code03_2DArray.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/Code03_2DArray.c" />
     <entry file="file://$PROJECT_DIR$/chapter03/数组的增删改查及二维数组">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
@@ -382,8 +413,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter03/动态数组vector">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        <state relative-caret-position="468">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/Code04_Vector.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/Code05_StrCharArray.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/字符串和字符数组">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/字符串的指针表示">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/Code06_StringAndPointer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/Code07_StringBasicOperate.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../soft/ide/anzhuangbao/msys64/mingw64/include/sec_api/string_s.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/Code08_StringBasicSafeOperate.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="19" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -394,13 +490,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/Code04_Vector.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter03/Code09_CppString.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        <state relative-caret-position="217">
+          <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
           <folding>
             <element signature="e#41#60#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/字符串的基本操作和String">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1137">
+          <caret line="93" column="21" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
         </state>
       </provider>
     </entry>

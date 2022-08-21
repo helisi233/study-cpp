@@ -122,32 +122,32 @@ study_cpp/fast:
 	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/build
 .PHONY : study_cpp/fast
 
-chapter03/Code04_Vector.obj: chapter03/Code04_Vector.cpp.obj
+chapter03/Code09_CppString.obj: chapter03/Code09_CppString.cpp.obj
 
-.PHONY : chapter03/Code04_Vector.obj
+.PHONY : chapter03/Code09_CppString.obj
 
 # target to build an object file
-chapter03/Code04_Vector.cpp.obj:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter03/Code04_Vector.cpp.obj
-.PHONY : chapter03/Code04_Vector.cpp.obj
+chapter03/Code09_CppString.cpp.obj:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter03/Code09_CppString.cpp.obj
+.PHONY : chapter03/Code09_CppString.cpp.obj
 
-chapter03/Code04_Vector.i: chapter03/Code04_Vector.cpp.i
+chapter03/Code09_CppString.i: chapter03/Code09_CppString.cpp.i
 
-.PHONY : chapter03/Code04_Vector.i
+.PHONY : chapter03/Code09_CppString.i
 
 # target to preprocess a source file
-chapter03/Code04_Vector.cpp.i:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter03/Code04_Vector.cpp.i
-.PHONY : chapter03/Code04_Vector.cpp.i
+chapter03/Code09_CppString.cpp.i:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter03/Code09_CppString.cpp.i
+.PHONY : chapter03/Code09_CppString.cpp.i
 
-chapter03/Code04_Vector.s: chapter03/Code04_Vector.cpp.s
+chapter03/Code09_CppString.s: chapter03/Code09_CppString.cpp.s
 
-.PHONY : chapter03/Code04_Vector.s
+.PHONY : chapter03/Code09_CppString.s
 
 # target to generate assembly for a file
-chapter03/Code04_Vector.cpp.s:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter03/Code04_Vector.cpp.s
-.PHONY : chapter03/Code04_Vector.cpp.s
+chapter03/Code09_CppString.cpp.s:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter03/Code09_CppString.cpp.s
+.PHONY : chapter03/Code09_CppString.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... study_cpp
 	@echo ... rebuild_cache
-	@echo ... chapter03/Code04_Vector.obj
-	@echo ... chapter03/Code04_Vector.i
-	@echo ... chapter03/Code04_Vector.s
+	@echo ... chapter03/Code09_CppString.obj
+	@echo ... chapter03/Code09_CppString.i
+	@echo ... chapter03/Code09_CppString.s
 .PHONY : help
 
 

@@ -14,3 +14,8 @@
         vector尾添加操作push_back(element);
         获取容量capacity()
         获取元素个数size()
+        vector从中间插入insert(index,element); index必须是合法索引
+        insert(vec.end-1, element); <=> push_back(element);
+        vector删除尾元素pop_back()
+        vector删除中间位置的元素erase(index,element); index必须是合法索引
+        erase(vec.end-1,element); <=> push_pop()
