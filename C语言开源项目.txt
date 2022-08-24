@@ -1,0 +1,38 @@
+C语言开源项目:
+	SQLite:
+		轻型的关系型数据库管理系统 遵守ACID
+		https://sqlite.org/src/doc/trunk/README.md
+	alhttpd:
+		Web服务器
+		https://sqlite.org/alhttpd/doc/trunk/alhttpd.md
+	rt-thread:
+		物联网操作系统
+		RT_Thread/rt-thread
+	Tinyhttpd:
+		轻量型http server 附带一个client
+		https://github.com/LippiOuYang/Tinyhttpd
+	cJSON:
+		JSON编解码器
+		https://github.com/DaveGamble/cJSON
+	FastDFS:
+		分布式文件系统 适合以文件为载体的在线服务[图片 视频 文档服务]
+		https://github.com/fastdfs100/fastdfs
+	CMockery:
+		用于C单元测试的框架
+		https://code.google.com/p/cmockery/downloads/list
+	Redis:
+		https://redis.io/
+	HP-Socket:
+		通用的高性能TCP/UDP/HTTP通信框架
+		https://www.oschina.net/p/hp-socket
+	IM即时通信系统:
+		https://gitee.com/starRTC/starrtc-server
+	Ekho:
+		文字转换成声音
+		https://github.com/hgneng/ekho
+	Seafile:
+		高性能网盘
+		https://github.com/haiwen/seafile
+	hgx-fastdfs:
+		分布式图片实时动态压缩
+		https://gitee.com/qieangel2013/ngx-fastdfs

@@ -1,0 +1,28 @@
+举例:
+    int main(void) {
+        char strHelloWorld[] = {"helloworld"};
+        char* pStrHelloWorld = "helloworld";
+        // 指针变量的值允许改变
+        pStrHelloWorld = strHelloWorld;
+        // 数组变量的值不允许改变
+        // error 左值必须是可修改的一块空间
+        strHelloWorld = pStrHelloWorld;
+        return 0;
+    }
+    strHelloWorld不可变 strHelloWorld[index]可变
+    pStrHelloWorld可变 pStrHelloWorld[index]可变可不变 取决于所指区间的存储区域是否可变
+
+    strHelloWorld这个名字本身就对应一块空间
+
+左值与右值
+    左值可以放在赋值运算符左边 编译器为其单独分配了一块存储空间(内存不能在寄存器) 可以取到其地址的
+    右值只能在赋值运算符右边 右值指的是数据本身 不能取到其自身地址
+
+    左值最常见的情况
+        函数和数据成员的名字
+    右值
+        没有标识符 不可以取地址的表达式 一般称之为临时对象
+    如
+        a=b+c
+        &a是允许的操作 &(b+c)不能通过编译
+        因此a是一个左值 而(b+c)是一个右值
