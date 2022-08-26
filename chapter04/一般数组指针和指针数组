@@ -1,0 +1,18 @@
+一般类型指针T* 这里的T是泛型但不是模板泛型
+    int i = 4; int* ip = &i; cout << (*ip) << endl;
+    double d = 3.14; double* dp = &d; cout << (*dp) << endl;
+    char c = 'a'; char* cp = &c; cout << (*cp) << endl;
+    函数和对象也可以使用指针指向它们 后续
+    在当前intel体系下int* double* char*只占用4个字节保存地址
+
+指针的数组 array of pointers
+    任何数组类型都可以放到容器里
+    装着指针的数组容器就是指针的数组
+    T* t[] t这个数组里面都是T*指针
+    有很多或一个指针
+
+数组的指针 a pointer to an array
+    T(*t)[] *t这个指针指向T[]
+    只有一个指针
+
+[]的优先级比*高

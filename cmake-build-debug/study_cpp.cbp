@@ -82,10 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/study-cpp/chapter04/Code01_SimpleUsePointer.cpp">
-			<Option target="study_cpp"/>
-		</Unit>
-		<Unit filename="D:/study-cpp/chapter04/Code02_LeftValueRightValue.cpp">
+		<Unit filename="D:/study-cpp/chapter04/Code04_ConstPointer.cpp">
 			<Option target="study_cpp"/>
 		</Unit>
 		<Unit filename="D:/study-cpp/CMakeLists.txt">

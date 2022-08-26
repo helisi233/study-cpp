@@ -122,59 +122,32 @@ study_cpp/fast:
 	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/build
 .PHONY : study_cpp/fast
 
-chapter04/Code01_SimpleUsePointer.obj: chapter04/Code01_SimpleUsePointer.cpp.obj
+chapter04/Code04_ConstPointer.obj: chapter04/Code04_ConstPointer.cpp.obj
 
-.PHONY : chapter04/Code01_SimpleUsePointer.obj
-
-# target to build an object file
-chapter04/Code01_SimpleUsePointer.cpp.obj:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code01_SimpleUsePointer.cpp.obj
-.PHONY : chapter04/Code01_SimpleUsePointer.cpp.obj
-
-chapter04/Code01_SimpleUsePointer.i: chapter04/Code01_SimpleUsePointer.cpp.i
-
-.PHONY : chapter04/Code01_SimpleUsePointer.i
-
-# target to preprocess a source file
-chapter04/Code01_SimpleUsePointer.cpp.i:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code01_SimpleUsePointer.cpp.i
-.PHONY : chapter04/Code01_SimpleUsePointer.cpp.i
-
-chapter04/Code01_SimpleUsePointer.s: chapter04/Code01_SimpleUsePointer.cpp.s
-
-.PHONY : chapter04/Code01_SimpleUsePointer.s
-
-# target to generate assembly for a file
-chapter04/Code01_SimpleUsePointer.cpp.s:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code01_SimpleUsePointer.cpp.s
-.PHONY : chapter04/Code01_SimpleUsePointer.cpp.s
-
-chapter04/Code02_LeftValueRightValue.obj: chapter04/Code02_LeftValueRightValue.cpp.obj
-
-.PHONY : chapter04/Code02_LeftValueRightValue.obj
+.PHONY : chapter04/Code04_ConstPointer.obj
 
 # target to build an object file
-chapter04/Code02_LeftValueRightValue.cpp.obj:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code02_LeftValueRightValue.cpp.obj
-.PHONY : chapter04/Code02_LeftValueRightValue.cpp.obj
+chapter04/Code04_ConstPointer.cpp.obj:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code04_ConstPointer.cpp.obj
+.PHONY : chapter04/Code04_ConstPointer.cpp.obj
 
-chapter04/Code02_LeftValueRightValue.i: chapter04/Code02_LeftValueRightValue.cpp.i
+chapter04/Code04_ConstPointer.i: chapter04/Code04_ConstPointer.cpp.i
 
-.PHONY : chapter04/Code02_LeftValueRightValue.i
+.PHONY : chapter04/Code04_ConstPointer.i
 
 # target to preprocess a source file
-chapter04/Code02_LeftValueRightValue.cpp.i:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code02_LeftValueRightValue.cpp.i
-.PHONY : chapter04/Code02_LeftValueRightValue.cpp.i
+chapter04/Code04_ConstPointer.cpp.i:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code04_ConstPointer.cpp.i
+.PHONY : chapter04/Code04_ConstPointer.cpp.i
 
-chapter04/Code02_LeftValueRightValue.s: chapter04/Code02_LeftValueRightValue.cpp.s
+chapter04/Code04_ConstPointer.s: chapter04/Code04_ConstPointer.cpp.s
 
-.PHONY : chapter04/Code02_LeftValueRightValue.s
+.PHONY : chapter04/Code04_ConstPointer.s
 
 # target to generate assembly for a file
-chapter04/Code02_LeftValueRightValue.cpp.s:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code02_LeftValueRightValue.cpp.s
-.PHONY : chapter04/Code02_LeftValueRightValue.cpp.s
+chapter04/Code04_ConstPointer.cpp.s:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code04_ConstPointer.cpp.s
+.PHONY : chapter04/Code04_ConstPointer.cpp.s
 
 # Help Target
 help:
@@ -185,12 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... study_cpp
 	@echo ... rebuild_cache
-	@echo ... chapter04/Code01_SimpleUsePointer.obj
-	@echo ... chapter04/Code01_SimpleUsePointer.i
-	@echo ... chapter04/Code01_SimpleUsePointer.s
-	@echo ... chapter04/Code02_LeftValueRightValue.obj
-	@echo ... chapter04/Code02_LeftValueRightValue.i
-	@echo ... chapter04/Code02_LeftValueRightValue.s
+	@echo ... chapter04/Code04_ConstPointer.obj
+	@echo ... chapter04/Code04_ConstPointer.i
+	@echo ... chapter04/Code04_ConstPointer.s
 .PHONY : help
 
 

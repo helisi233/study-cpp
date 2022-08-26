@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/study_cpp.dir/chapter04/Code01_SimpleUsePointer.cpp.obj"
-  "CMakeFiles/study_cpp.dir/chapter04/Code02_LeftValueRightValue.cpp.obj"
+  "CMakeFiles/study_cpp.dir/chapter04/Code04_ConstPointer.cpp.obj"
   "study_cpp.pdb"
   "study_cpp.exe"
   "study_cpp.exe.manifest"

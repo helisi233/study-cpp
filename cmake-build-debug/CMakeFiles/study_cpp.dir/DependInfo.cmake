@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/study-cpp/chapter04/Code01_SimpleUsePointer.cpp" "D:/study-cpp/cmake-build-debug/CMakeFiles/study_cpp.dir/chapter04/Code01_SimpleUsePointer.cpp.obj"
-  "D:/study-cpp/chapter04/Code02_LeftValueRightValue.cpp" "D:/study-cpp/cmake-build-debug/CMakeFiles/study_cpp.dir/chapter04/Code02_LeftValueRightValue.cpp.obj"
+  "D:/study-cpp/chapter04/Code04_ConstPointer.cpp" "D:/study-cpp/cmake-build-debug/CMakeFiles/study_cpp.dir/chapter04/Code04_ConstPointer.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
