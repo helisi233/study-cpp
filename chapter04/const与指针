@@ -1,4 +1,23 @@
-const pointer
+const与编译器建立联系
+    告诉编译器被修饰的变量运行期间不可以被改变
+
+const修饰规则
+    看左侧最近的部分
+    如果左侧没有则看右侧
+
+const pointer与pointer to const
+    char strHelloWorld[] = {"helloworld"};
 
 
-pointer to const
+    char const *pstr1 = "helloworld";
+    const char *pstr1 = "helloworld";
+
+    char* const pstr2 = "helloworld";
+
+
+    char const* const pstr3 = "helloworld";
+    const char* const pstr3 = "helloworld";
+
+使用指针的问题
+    一个指针有w权限 另一个指针只有r权限
+    当w权限的指针修改指向变量的内容时 r权限的指针也会被动读取到修改后的内容

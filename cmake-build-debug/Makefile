@@ -122,32 +122,32 @@ study_cpp/fast:
 	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/build
 .PHONY : study_cpp/fast
 
-chapter04/Code04_ConstPointer.obj: chapter04/Code04_ConstPointer.cpp.obj
+chapter04/Code05_PointerToPointer.obj: chapter04/Code05_PointerToPointer.cpp.obj
 
-.PHONY : chapter04/Code04_ConstPointer.obj
+.PHONY : chapter04/Code05_PointerToPointer.obj
 
 # target to build an object file
-chapter04/Code04_ConstPointer.cpp.obj:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code04_ConstPointer.cpp.obj
-.PHONY : chapter04/Code04_ConstPointer.cpp.obj
+chapter04/Code05_PointerToPointer.cpp.obj:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code05_PointerToPointer.cpp.obj
+.PHONY : chapter04/Code05_PointerToPointer.cpp.obj
 
-chapter04/Code04_ConstPointer.i: chapter04/Code04_ConstPointer.cpp.i
+chapter04/Code05_PointerToPointer.i: chapter04/Code05_PointerToPointer.cpp.i
 
-.PHONY : chapter04/Code04_ConstPointer.i
+.PHONY : chapter04/Code05_PointerToPointer.i
 
 # target to preprocess a source file
-chapter04/Code04_ConstPointer.cpp.i:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code04_ConstPointer.cpp.i
-.PHONY : chapter04/Code04_ConstPointer.cpp.i
+chapter04/Code05_PointerToPointer.cpp.i:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code05_PointerToPointer.cpp.i
+.PHONY : chapter04/Code05_PointerToPointer.cpp.i
 
-chapter04/Code04_ConstPointer.s: chapter04/Code04_ConstPointer.cpp.s
+chapter04/Code05_PointerToPointer.s: chapter04/Code05_PointerToPointer.cpp.s
 
-.PHONY : chapter04/Code04_ConstPointer.s
+.PHONY : chapter04/Code05_PointerToPointer.s
 
 # target to generate assembly for a file
-chapter04/Code04_ConstPointer.cpp.s:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code04_ConstPointer.cpp.s
-.PHONY : chapter04/Code04_ConstPointer.cpp.s
+chapter04/Code05_PointerToPointer.cpp.s:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code05_PointerToPointer.cpp.s
+.PHONY : chapter04/Code05_PointerToPointer.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... study_cpp
 	@echo ... rebuild_cache
-	@echo ... chapter04/Code04_ConstPointer.obj
-	@echo ... chapter04/Code04_ConstPointer.i
-	@echo ... chapter04/Code04_ConstPointer.s
+	@echo ... chapter04/Code05_PointerToPointer.obj
+	@echo ... chapter04/Code05_PointerToPointer.i
+	@echo ... chapter04/Code05_PointerToPointer.s
 .PHONY : help
 
 

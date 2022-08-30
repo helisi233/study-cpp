@@ -3,4 +3,4 @@ project(study_cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(study_cpp chapter04/Code04_ConstPointer.cpp)
+add_executable(study_cpp chapter04/Code05_PointerToPointer.cpp)
