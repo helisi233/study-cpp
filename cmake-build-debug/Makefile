@@ -149,6 +149,33 @@ chapter04/Code05_PointerToPointer.cpp.s:
 	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code05_PointerToPointer.cpp.s
 .PHONY : chapter04/Code05_PointerToPointer.cpp.s
 
+chapter04/Code06_BasicPointerOperator.obj: chapter04/Code06_BasicPointerOperator.cpp.obj
+
+.PHONY : chapter04/Code06_BasicPointerOperator.obj
+
+# target to build an object file
+chapter04/Code06_BasicPointerOperator.cpp.obj:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code06_BasicPointerOperator.cpp.obj
+.PHONY : chapter04/Code06_BasicPointerOperator.cpp.obj
+
+chapter04/Code06_BasicPointerOperator.i: chapter04/Code06_BasicPointerOperator.cpp.i
+
+.PHONY : chapter04/Code06_BasicPointerOperator.i
+
+# target to preprocess a source file
+chapter04/Code06_BasicPointerOperator.cpp.i:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code06_BasicPointerOperator.cpp.i
+.PHONY : chapter04/Code06_BasicPointerOperator.cpp.i
+
+chapter04/Code06_BasicPointerOperator.s: chapter04/Code06_BasicPointerOperator.cpp.s
+
+.PHONY : chapter04/Code06_BasicPointerOperator.s
+
+# target to generate assembly for a file
+chapter04/Code06_BasicPointerOperator.cpp.s:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code06_BasicPointerOperator.cpp.s
+.PHONY : chapter04/Code06_BasicPointerOperator.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +188,9 @@ help:
 	@echo ... chapter04/Code05_PointerToPointer.obj
 	@echo ... chapter04/Code05_PointerToPointer.i
 	@echo ... chapter04/Code05_PointerToPointer.s
+	@echo ... chapter04/Code06_BasicPointerOperator.obj
+	@echo ... chapter04/Code06_BasicPointerOperator.i
+	@echo ... chapter04/Code06_BasicPointerOperator.s
 .PHONY : help
 
 

@@ -12,10 +12,15 @@ int main(void) {
     int** c = &b;
 
     cout << "a的值:" << a << endl;
-
     cout << "a的地址:" << &a << " b的值:" << b << endl;
-
     cout << "b的地址:" << &b << " c的值:" << c << endl;
+
+    int* pA = NULL;
+    pA = &a;
+    if(pA != NULL) {
+        cout << (*pA) << endl;
+    }
+    pA = NULL;
 
     return 0;
 }

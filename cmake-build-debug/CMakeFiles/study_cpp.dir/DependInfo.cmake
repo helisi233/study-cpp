@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/study-cpp/chapter04/Code05_PointerToPointer.cpp" "D:/study-cpp/cmake-build-debug/CMakeFiles/study_cpp.dir/chapter04/Code05_PointerToPointer.cpp.obj"
+  "D:/study-cpp/chapter04/Code06_BasicPointerOperator.cpp" "D:/study-cpp/cmake-build-debug/CMakeFiles/study_cpp.dir/chapter04/Code06_BasicPointerOperator.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

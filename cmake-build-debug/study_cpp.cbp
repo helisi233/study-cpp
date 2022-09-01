@@ -85,6 +85,9 @@
 		<Unit filename="D:/study-cpp/chapter04/Code05_PointerToPointer.cpp">
 			<Option target="study_cpp"/>
 		</Unit>
+		<Unit filename="D:/study-cpp/chapter04/Code06_BasicPointerOperator.cpp">
+			<Option target="study_cpp"/>
+		</Unit>
 		<Unit filename="D:/study-cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

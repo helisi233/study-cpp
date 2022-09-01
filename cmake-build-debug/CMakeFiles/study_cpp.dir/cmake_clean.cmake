@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/study_cpp.dir/chapter04/Code05_PointerToPointer.cpp.obj"
+  "CMakeFiles/study_cpp.dir/chapter04/Code06_BasicPointerOperator.cpp.obj"
   "study_cpp.pdb"
   "study_cpp.exe"
   "study_cpp.exe.manifest"
