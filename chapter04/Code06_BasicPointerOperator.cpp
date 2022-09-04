@@ -8,18 +8,21 @@ using namespace std;
 int main(void) {
 
     char ch = 'a';
-    // &ch = 97; &ch左值不合法
-    char* cP = &ch; // &ch右值
+    char* cp = &ch;
 
-    // &cP = 97; &cP左值不合法
-    char** cPP = &cP; // &cP右值
+    char* cp2 = ++cp;
+    char* cp3 = cp++;
+    char* cp4 = --cp;
+    char* cp5 = cp--;
 
-    *cP = 'a';  // *cp左值取变量ch的位置
-    char ch2 = *cP;  // *cP右值取变量ch存储的值 赋值给ch2
-    // *cP+1 = 'a'; *cP+1左值不合法
-    ch2 = *cP + 1;   // 将*cP取到的值加一 然后赋值ch2
-    *(cP+1) = 'a';   // *(cP+1)左值语法上合法 取ch后面的位置
-    ch2 = *(cP+1);   // 取出ch后面位置的值 然后赋值给ch2
+    *++cp2 = 98;
+    char ch3 = *++cp2;
+    *cp2++ = 98;
+    char ch4 = *cp2++;
+
+    int a = 1,b = 2, c, d;
+    c = a++ +b;
+    char ch5 = ++*++cp;
 
     return 0;
 }

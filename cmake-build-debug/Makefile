@@ -122,59 +122,32 @@ study_cpp/fast:
 	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/build
 .PHONY : study_cpp/fast
 
-chapter04/Code05_PointerToPointer.obj: chapter04/Code05_PointerToPointer.cpp.obj
+chapter04/Code07_StorageAreaDivide.obj: chapter04/Code07_StorageAreaDivide.cpp.obj
 
-.PHONY : chapter04/Code05_PointerToPointer.obj
-
-# target to build an object file
-chapter04/Code05_PointerToPointer.cpp.obj:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code05_PointerToPointer.cpp.obj
-.PHONY : chapter04/Code05_PointerToPointer.cpp.obj
-
-chapter04/Code05_PointerToPointer.i: chapter04/Code05_PointerToPointer.cpp.i
-
-.PHONY : chapter04/Code05_PointerToPointer.i
-
-# target to preprocess a source file
-chapter04/Code05_PointerToPointer.cpp.i:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code05_PointerToPointer.cpp.i
-.PHONY : chapter04/Code05_PointerToPointer.cpp.i
-
-chapter04/Code05_PointerToPointer.s: chapter04/Code05_PointerToPointer.cpp.s
-
-.PHONY : chapter04/Code05_PointerToPointer.s
-
-# target to generate assembly for a file
-chapter04/Code05_PointerToPointer.cpp.s:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code05_PointerToPointer.cpp.s
-.PHONY : chapter04/Code05_PointerToPointer.cpp.s
-
-chapter04/Code06_BasicPointerOperator.obj: chapter04/Code06_BasicPointerOperator.cpp.obj
-
-.PHONY : chapter04/Code06_BasicPointerOperator.obj
+.PHONY : chapter04/Code07_StorageAreaDivide.obj
 
 # target to build an object file
-chapter04/Code06_BasicPointerOperator.cpp.obj:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code06_BasicPointerOperator.cpp.obj
-.PHONY : chapter04/Code06_BasicPointerOperator.cpp.obj
+chapter04/Code07_StorageAreaDivide.cpp.obj:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code07_StorageAreaDivide.cpp.obj
+.PHONY : chapter04/Code07_StorageAreaDivide.cpp.obj
 
-chapter04/Code06_BasicPointerOperator.i: chapter04/Code06_BasicPointerOperator.cpp.i
+chapter04/Code07_StorageAreaDivide.i: chapter04/Code07_StorageAreaDivide.cpp.i
 
-.PHONY : chapter04/Code06_BasicPointerOperator.i
+.PHONY : chapter04/Code07_StorageAreaDivide.i
 
 # target to preprocess a source file
-chapter04/Code06_BasicPointerOperator.cpp.i:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code06_BasicPointerOperator.cpp.i
-.PHONY : chapter04/Code06_BasicPointerOperator.cpp.i
+chapter04/Code07_StorageAreaDivide.cpp.i:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code07_StorageAreaDivide.cpp.i
+.PHONY : chapter04/Code07_StorageAreaDivide.cpp.i
 
-chapter04/Code06_BasicPointerOperator.s: chapter04/Code06_BasicPointerOperator.cpp.s
+chapter04/Code07_StorageAreaDivide.s: chapter04/Code07_StorageAreaDivide.cpp.s
 
-.PHONY : chapter04/Code06_BasicPointerOperator.s
+.PHONY : chapter04/Code07_StorageAreaDivide.s
 
 # target to generate assembly for a file
-chapter04/Code06_BasicPointerOperator.cpp.s:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code06_BasicPointerOperator.cpp.s
-.PHONY : chapter04/Code06_BasicPointerOperator.cpp.s
+chapter04/Code07_StorageAreaDivide.cpp.s:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code07_StorageAreaDivide.cpp.s
+.PHONY : chapter04/Code07_StorageAreaDivide.cpp.s
 
 # Help Target
 help:
@@ -185,12 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... study_cpp
 	@echo ... rebuild_cache
-	@echo ... chapter04/Code05_PointerToPointer.obj
-	@echo ... chapter04/Code05_PointerToPointer.i
-	@echo ... chapter04/Code05_PointerToPointer.s
-	@echo ... chapter04/Code06_BasicPointerOperator.obj
-	@echo ... chapter04/Code06_BasicPointerOperator.i
-	@echo ... chapter04/Code06_BasicPointerOperator.s
+	@echo ... chapter04/Code07_StorageAreaDivide.obj
+	@echo ... chapter04/Code07_StorageAreaDivide.i
+	@echo ... chapter04/Code07_StorageAreaDivide.s
 .PHONY : help
 
 
