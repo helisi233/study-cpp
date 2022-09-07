@@ -1,0 +1,30 @@
+RAII(Resource Acquisition Is Initialization)
+在资源分配地时候就开始管理资源
+
+C++所特有的资源管理方式 有少量其他语言如 D Ada Rust也采纳了RAII 但主流的编程语言中C++是唯一一个
+依赖RAII来做资源管理的
+
+RAII依托栈和析构函数 来对所有的资源--包括堆内存在内进行管理
+对RAII的使用 使得C++不需要类似于Java那样的垃圾收集方法 也能有效地对内存进行管理
+RAII地存在 也是垃圾收集虽然理论上可以在C++使用 但从来内有真正流行过地主要原因
+
+RAII有些比较程数地只能指针代表 std::auto_ptr和boost: shared_ptr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
