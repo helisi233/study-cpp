@@ -21,5 +21,21 @@ int main(void) {    // text代码区
     char* p4 = new char[7]; // heap 堆区变量
     strcpy_s(p4, 7, "123456");  // text代码区
 
+    // 释放掉的指针最好手动置为NULL
+    // 对数组进行内存回收delete[] 对变量进行内存回收delete
+    // malloc和delete不能混用
+    if(p1 != NULL) {
+        delete p1;
+        p1 = NULL;
+    }
+    if(p2 != NULL) {
+        delete p2;
+        p2 = NULL;
+    }
+    if(p4 != NULL) {
+        delete[] p4;
+        p4 = NULL;
+    }
+
     return 0;   // text代码区
 }

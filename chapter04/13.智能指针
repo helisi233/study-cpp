@@ -1,0 +1,66 @@
+智能指针
+    使用指针是非常危险的行为 可能存在空指针 野指针问题 并可能造成内存泄露问题
+    可指针由非常高效 所以希望以更安全的方式来使用指针
+
+    典型方案
+        使用更安全的指针--智能指针
+        不适用指针 使用更安全的方式--引用
+
+    C++由四种常用的智能指针
+        unique_ptr、shared_ptr、weak_ptr和C++11中已经废弃的auto_ptr 在C++17中被正式删除
+
+    应用场景
+        对象所有权
+        生命周期
+
+    性能分析
+
+    auto_ptr
+        由new expression获得对象 在auto_ptr对象销毁时 他管理的对象也会自动被delete掉
+        auto_ptr_old = 对象;
+        auto_ptr_new = 对象;
+        同一个对象被新的auto_ptr指向的时候 在拷贝/赋值过程中 会剥夺老的auto_ptr对这个对象
+        的所有权 对象被转交给新对象 然后老的auto_ptr被赋值乘nullptr
+
+        源码
+            析构函数
+                ~auto_ptr() { delete _M_ptr; }
+            赋值
+                auto_ptr& operator=(auto_ptr& __a) throw()
+                {
+                	reset(__a.release());
+                	return *this;
+                }
+
+                element_type* release() throw()
+                {
+                	element_type* __tmp = _M_ptr;
+                	_M_ptr = 0;
+                	return __tmp;
+                }
+
+                void reset(element_type* __p = 0) throw()
+                {
+                	if (__p != _M_ptr)
+                	{
+                	    delete _M_ptr;
+                	    _M_ptr = __p;
+                	}
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

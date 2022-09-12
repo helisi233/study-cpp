@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/study-cpp/chapter04/Code05_PointerToPointer.cpp
+D:/study-cpp/chapter04/Code08_IntelligentPointer.cpp
+string
+-
 iostream
+-
+memory
 -
 

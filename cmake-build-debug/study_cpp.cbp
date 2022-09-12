@@ -82,7 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/study-cpp/chapter04/Code07_StorageAreaDivide.cpp">
+		<Unit filename="D:/study-cpp/chapter04/Code08_IntelligentPointer-autoptr.cpp">
+			<Option target="study_cpp"/>
+		</Unit>
+		<Unit filename="D:/study-cpp/chapter04/Code09_IntellgentPointer-uniqueptr.cpp">
 			<Option target="study_cpp"/>
 		</Unit>
 		<Unit filename="D:/study-cpp/CMakeLists.txt">

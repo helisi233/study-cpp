@@ -12,9 +12,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fc29ac6-143d-4eaf-9b31-80477cae1e9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter04/cpp动态分配和内存回收原则" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/资源管理方案-RAII" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/11.C++中几种变量的对比" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/12.内存泄露" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/13.智能指针" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/Code08_IntelligentPointer.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter04/Code07_StorageAreaDivide.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/Code07_StorageAreaDivide.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter04/c++程序的存储区域划分" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/08.c++程序的存储区域划分" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter04/const与指针" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/04.const与指针" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter04/cpp动态分配和内存回收原则" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/09.cpp动态分配和内存回收原则" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter04/一般数组指针和指针数组" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/03.一般数组指针和指针数组" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter04/关于野指针" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/06.关于野指针" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter04/左值和右值" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/02.左值和右值" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter04/指向指针的指针" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/05.指向指针的指针" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter04/指针的基本操作" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/07.指针的基本操作" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter04/指针的概念" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/01.指针的概念" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter04/资源管理方案-RAII" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/10.资源管理方案-RAII" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/study_cpp.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/study_cpp.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,16 +58,42 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter04/资源管理方案-RAII">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter04/13.智能指针">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            <state relative-caret-position="532">
+              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter04/Code08_IntelligentPointer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+              <folding>
+                <element signature="e#41#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../soft/ide/anzhuangbao/msys64/mingw64/include/c++/12.1.0/backward/auto_ptr.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="248" column="7" lean-forward="true" selection-start-line="240" selection-start-column="6" selection-end-line="248" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>reset</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,10 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter01/笔记" />
-        <option value="$PROJECT_DIR$/chapter01/语言的数据类型" />
-        <option value="$PROJECT_DIR$/chapter01/语言的标识符和关键字" />
-        <option value="$PROJECT_DIR$/chapter01/demo0.cpp" />
         <option value="$PROJECT_DIR$/chapter01/变量和常量" />
         <option value="$PROJECT_DIR$/chapter02/Code01_CountOperator.cpp" />
         <option value="$PROJECT_DIR$/chapter02/Code02_RelationOperator.cpp" />
@@ -101,17 +143,21 @@
         <option value="$PROJECT_DIR$/chapter04/关于野指针" />
         <option value="$PROJECT_DIR$/chapter04/指针的基本操作" />
         <option value="$PROJECT_DIR$/chapter04/Code06_BasicPointerOperator.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/chapter04/Code07_StorageAreaDivide.cpp" />
         <option value="$PROJECT_DIR$/chapter04/c++程序的存储区域划分" />
         <option value="$PROJECT_DIR$/chapter04/堆" />
         <option value="$PROJECT_DIR$/chapter04/资源管理方案-RAII" />
+        <option value="$PROJECT_DIR$/chapter04/14.C++中几种变量的对比" />
+        <option value="$PROJECT_DIR$/chapter04/Code07_StorageAreaDivide.cpp" />
+        <option value="$PROJECT_DIR$/chapter04/12.内存泄露" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/chapter04/13.智能指针" />
+        <option value="$PROJECT_DIR$/chapter04/Code08_IntelligentPointer.cpp" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="117" />
-    <option name="y" value="105" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="287" />
+    <option name="y" value="32" />
     <option name="width" value="1425" />
     <option name="height" value="960" />
   </component>
@@ -121,6 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,7 +184,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,15 +239,16 @@
       <workItem from="1661906422023" duration="2494000" />
       <workItem from="1662048538233" duration="2390000" />
       <workItem from="1662277006763" duration="9148000" />
-      <workItem from="1662567313031" duration="1726000" />
+      <workItem from="1662567313031" duration="5451000" />
+      <workItem from="1663000161257" duration="4714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95211000" />
+    <option name="totallyTimeSpent" value="103650000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-323" y="102" width="1140" height="768" extended-state="1" />
+    <frame x="495" y="31" width="1140" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2245841" />
@@ -215,8 +262,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32389936" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5377358" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32232705" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5361635" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3297546" />
@@ -252,42 +299,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter01/语言的数据类型">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/chapter01/语言的标识符和关键字">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter01/变量和常量">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter01/demo0.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02/Code01_CountOperator.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/Code02_RelationOperator.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -486,7 +497,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/指针的概念">
+    <entry file="file://$PROJECT_DIR$/chapter04/01.指针的概念">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
           <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
@@ -507,14 +518,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/左值和右值">
+    <entry file="file://$PROJECT_DIR$/chapter04/02.左值和右值">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/一般数组指针和指针数组">
+    <entry file="file://$PROJECT_DIR$/chapter04/03.一般数组指针和指针数组">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
@@ -538,14 +549,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/const与指针">
+    <entry file="file://$PROJECT_DIR$/chapter04/04.const与指针">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
           <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/指向指针的指针">
+    <entry file="file://$PROJECT_DIR$/chapter04/05.指向指针的指针">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
@@ -559,7 +570,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/关于野指针">
+    <entry file="file://$PROJECT_DIR$/chapter04/06.关于野指针">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
@@ -573,34 +584,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/指针的基本操作">
+    <entry file="file://$PROJECT_DIR$/chapter04/07.指针的基本操作">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/Code07_StorageAreaDivide.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <element signature="e#40#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/c++程序的存储区域划分">
+    <entry file="file://$PROJECT_DIR$/chapter04/08.c++程序的存储区域划分">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
           <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/cpp动态分配和内存回收原则">
+    <entry file="file://$PROJECT_DIR$/chapter04/09.cpp动态分配和内存回收原则">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/10.资源管理方案-RAII">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/代码和数据在cpp程序中的存储.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/Code07_StorageAreaDivide.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+          <folding>
+            <element signature="e#40#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/11.C++中几种变量的对比">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/12.内存泄露">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -611,10 +646,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/资源管理方案-RAII">
+    <entry file="file://$PROJECT_DIR$/../soft/ide/anzhuangbao/msys64/mingw64/include/c++/12.1.0/backward/auto_ptr.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        <state relative-caret-position="357">
+          <caret line="248" column="7" lean-forward="true" selection-start-line="240" selection-start-column="6" selection-end-line="248" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/13.智能指针">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/Code08_IntelligentPointer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+          <folding>
+            <element signature="e#41#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
