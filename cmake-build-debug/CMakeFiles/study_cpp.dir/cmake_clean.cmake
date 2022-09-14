@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/study_cpp.dir/chapter04/Code08_IntelligentPointer-autoptr.cpp.obj"
   "CMakeFiles/study_cpp.dir/chapter04/Code09_IntellgentPointer-uniqueptr.cpp.obj"
   "study_cpp.pdb"
   "study_cpp.exe"

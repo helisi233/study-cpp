@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-D:/study-cpp/chapter04/Code08_IntelligentPointer.cpp
-string
--
+D:/study-cpp/chapter04/Code09_IntellgentPointer-uniqueptr.cpp
 iostream
 -
 memory

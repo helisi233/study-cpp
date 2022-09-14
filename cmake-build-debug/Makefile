@@ -122,33 +122,6 @@ study_cpp/fast:
 	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/build
 .PHONY : study_cpp/fast
 
-chapter04/Code08_IntelligentPointer-autoptr.obj: chapter04/Code08_IntelligentPointer-autoptr.cpp.obj
-
-.PHONY : chapter04/Code08_IntelligentPointer-autoptr.obj
-
-# target to build an object file
-chapter04/Code08_IntelligentPointer-autoptr.cpp.obj:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code08_IntelligentPointer-autoptr.cpp.obj
-.PHONY : chapter04/Code08_IntelligentPointer-autoptr.cpp.obj
-
-chapter04/Code08_IntelligentPointer-autoptr.i: chapter04/Code08_IntelligentPointer-autoptr.cpp.i
-
-.PHONY : chapter04/Code08_IntelligentPointer-autoptr.i
-
-# target to preprocess a source file
-chapter04/Code08_IntelligentPointer-autoptr.cpp.i:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code08_IntelligentPointer-autoptr.cpp.i
-.PHONY : chapter04/Code08_IntelligentPointer-autoptr.cpp.i
-
-chapter04/Code08_IntelligentPointer-autoptr.s: chapter04/Code08_IntelligentPointer-autoptr.cpp.s
-
-.PHONY : chapter04/Code08_IntelligentPointer-autoptr.s
-
-# target to generate assembly for a file
-chapter04/Code08_IntelligentPointer-autoptr.cpp.s:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code08_IntelligentPointer-autoptr.cpp.s
-.PHONY : chapter04/Code08_IntelligentPointer-autoptr.cpp.s
-
 chapter04/Code09_IntellgentPointer-uniqueptr.obj: chapter04/Code09_IntellgentPointer-uniqueptr.cpp.obj
 
 .PHONY : chapter04/Code09_IntellgentPointer-uniqueptr.obj
@@ -185,9 +158,6 @@ help:
 	@echo ... edit_cache
 	@echo ... study_cpp
 	@echo ... rebuild_cache
-	@echo ... chapter04/Code08_IntelligentPointer-autoptr.obj
-	@echo ... chapter04/Code08_IntelligentPointer-autoptr.i
-	@echo ... chapter04/Code08_IntelligentPointer-autoptr.s
 	@echo ... chapter04/Code09_IntellgentPointer-uniqueptr.obj
 	@echo ... chapter04/Code09_IntellgentPointer-uniqueptr.i
 	@echo ... chapter04/Code09_IntellgentPointer-uniqueptr.s

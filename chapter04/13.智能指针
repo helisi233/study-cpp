@@ -48,9 +48,56 @@
                 	}
                 }
 
+    unique_ptr
+        unique_ptr是专属所有权 当unique_ptr指向一个对象后 这个对象不能通过赋值或复制的操作被
+        其他unique_ptr指向
+        移动语义
+            unique_ptr禁止了拷贝语义 使用移动语义可以转移所有权
+            使用std::move() 进行控制所有权的转移
+            控制权转移后 原unique_ptr被置为nullptr
+        源码
+            返回一个unique_ptr类型指针 从堆中分配
+            inline __detail::__unique_ptr_t<_Tp> make_unique(_Args&&... __args)
+            {
+                return unique_ptr<_Tp>(new _Tp(std::forward<_Args>(__args)...));
+            }
 
+            返回指向对象的指针
+            pointer get() const noexcept
+            {
+                return _M_t._M_ptr();
+            }
 
+            constexpr typename std::remove_reference<_Tp>::type&& move(_Tp&& __t) noexcept
+            {
+                return static_cast<typename std::remove_reference<_Tp>::type&&>(__t);
+            }
 
+            析构函数
+            ~unique_ptr() noexcept
+            {
+            	static_assert(__is_invocable<deleter_type&, pointer>::value,
+            		      "unique_ptr's deleter must be invocable with a pointer");
+            	auto& __ptr = _M_t._M_ptr();
+            	if (__ptr != nullptr)
+            	  get_deleter()(std::move(__ptr));
+            	__ptr = pointer();
+            }
+
+    shared_ptr
+        通过一个引用计数共享一个对象
+        shared_ptr是为了解决auto_ptr在对象所有权上的局限性 在使用引用计数的机制上提供了可以共享
+        所有权的智能指针 当然这需要额外的开销
+        当引用计数为0时 该对象没有被使用 可以进行析构
+
+        循环引用
+            引用计数回带来循环引用的问题
+            对象A(包含智能指针ptrA) <----> 对象B(包含智能指针ptrB)
+            ptrA指向对象B ptrB指向对象A
+            导致A和B因为有了对方的指向无法释放
+            循环引用会导致堆里的内存无法正常回收 造成内存泄露
+
+    weak_ptr
 
 
 
