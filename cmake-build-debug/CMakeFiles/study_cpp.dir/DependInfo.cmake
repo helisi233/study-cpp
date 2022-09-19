@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/study-cpp/chapter04/Code11_CircularReference.cpp" "D:/study-cpp/cmake-build-debug/CMakeFiles/study_cpp.dir/chapter04/Code11_CircularReference.cpp.obj"
+  "D:/study-cpp/chapter04/Code12_Quote.cpp" "D:/study-cpp/cmake-build-debug/CMakeFiles/study_cpp.dir/chapter04/Code12_Quote.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

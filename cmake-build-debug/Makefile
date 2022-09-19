@@ -122,32 +122,32 @@ study_cpp/fast:
 	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/build
 .PHONY : study_cpp/fast
 
-chapter04/Code11_CircularReference.obj: chapter04/Code11_CircularReference.cpp.obj
+chapter04/Code12_Quote.obj: chapter04/Code12_Quote.cpp.obj
 
-.PHONY : chapter04/Code11_CircularReference.obj
+.PHONY : chapter04/Code12_Quote.obj
 
 # target to build an object file
-chapter04/Code11_CircularReference.cpp.obj:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code11_CircularReference.cpp.obj
-.PHONY : chapter04/Code11_CircularReference.cpp.obj
+chapter04/Code12_Quote.cpp.obj:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code12_Quote.cpp.obj
+.PHONY : chapter04/Code12_Quote.cpp.obj
 
-chapter04/Code11_CircularReference.i: chapter04/Code11_CircularReference.cpp.i
+chapter04/Code12_Quote.i: chapter04/Code12_Quote.cpp.i
 
-.PHONY : chapter04/Code11_CircularReference.i
+.PHONY : chapter04/Code12_Quote.i
 
 # target to preprocess a source file
-chapter04/Code11_CircularReference.cpp.i:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code11_CircularReference.cpp.i
-.PHONY : chapter04/Code11_CircularReference.cpp.i
+chapter04/Code12_Quote.cpp.i:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code12_Quote.cpp.i
+.PHONY : chapter04/Code12_Quote.cpp.i
 
-chapter04/Code11_CircularReference.s: chapter04/Code11_CircularReference.cpp.s
+chapter04/Code12_Quote.s: chapter04/Code12_Quote.cpp.s
 
-.PHONY : chapter04/Code11_CircularReference.s
+.PHONY : chapter04/Code12_Quote.s
 
 # target to generate assembly for a file
-chapter04/Code11_CircularReference.cpp.s:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code11_CircularReference.cpp.s
-.PHONY : chapter04/Code11_CircularReference.cpp.s
+chapter04/Code12_Quote.cpp.s:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code12_Quote.cpp.s
+.PHONY : chapter04/Code12_Quote.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... study_cpp
 	@echo ... rebuild_cache
-	@echo ... chapter04/Code11_CircularReference.obj
-	@echo ... chapter04/Code11_CircularReference.i
-	@echo ... chapter04/Code11_CircularReference.s
+	@echo ... chapter04/Code12_Quote.obj
+	@echo ... chapter04/Code12_Quote.i
+	@echo ... chapter04/Code12_Quote.s
 .PHONY : help
 
 
