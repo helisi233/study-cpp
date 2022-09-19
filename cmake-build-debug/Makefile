@@ -122,32 +122,32 @@ study_cpp/fast:
 	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/build
 .PHONY : study_cpp/fast
 
-chapter04/Code09_IntellgentPointer-uniqueptr.obj: chapter04/Code09_IntellgentPointer-uniqueptr.cpp.obj
+chapter04/Code11_CircularReference.obj: chapter04/Code11_CircularReference.cpp.obj
 
-.PHONY : chapter04/Code09_IntellgentPointer-uniqueptr.obj
+.PHONY : chapter04/Code11_CircularReference.obj
 
 # target to build an object file
-chapter04/Code09_IntellgentPointer-uniqueptr.cpp.obj:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code09_IntellgentPointer-uniqueptr.cpp.obj
-.PHONY : chapter04/Code09_IntellgentPointer-uniqueptr.cpp.obj
+chapter04/Code11_CircularReference.cpp.obj:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code11_CircularReference.cpp.obj
+.PHONY : chapter04/Code11_CircularReference.cpp.obj
 
-chapter04/Code09_IntellgentPointer-uniqueptr.i: chapter04/Code09_IntellgentPointer-uniqueptr.cpp.i
+chapter04/Code11_CircularReference.i: chapter04/Code11_CircularReference.cpp.i
 
-.PHONY : chapter04/Code09_IntellgentPointer-uniqueptr.i
+.PHONY : chapter04/Code11_CircularReference.i
 
 # target to preprocess a source file
-chapter04/Code09_IntellgentPointer-uniqueptr.cpp.i:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code09_IntellgentPointer-uniqueptr.cpp.i
-.PHONY : chapter04/Code09_IntellgentPointer-uniqueptr.cpp.i
+chapter04/Code11_CircularReference.cpp.i:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code11_CircularReference.cpp.i
+.PHONY : chapter04/Code11_CircularReference.cpp.i
 
-chapter04/Code09_IntellgentPointer-uniqueptr.s: chapter04/Code09_IntellgentPointer-uniqueptr.cpp.s
+chapter04/Code11_CircularReference.s: chapter04/Code11_CircularReference.cpp.s
 
-.PHONY : chapter04/Code09_IntellgentPointer-uniqueptr.s
+.PHONY : chapter04/Code11_CircularReference.s
 
 # target to generate assembly for a file
-chapter04/Code09_IntellgentPointer-uniqueptr.cpp.s:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code09_IntellgentPointer-uniqueptr.cpp.s
-.PHONY : chapter04/Code09_IntellgentPointer-uniqueptr.cpp.s
+chapter04/Code11_CircularReference.cpp.s:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code11_CircularReference.cpp.s
+.PHONY : chapter04/Code11_CircularReference.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... study_cpp
 	@echo ... rebuild_cache
-	@echo ... chapter04/Code09_IntellgentPointer-uniqueptr.obj
-	@echo ... chapter04/Code09_IntellgentPointer-uniqueptr.i
-	@echo ... chapter04/Code09_IntellgentPointer-uniqueptr.s
+	@echo ... chapter04/Code11_CircularReference.obj
+	@echo ... chapter04/Code11_CircularReference.i
+	@echo ... chapter04/Code11_CircularReference.s
 .PHONY : help
 
 

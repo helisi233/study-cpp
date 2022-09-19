@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/study-cpp/chapter04/Code09_IntellgentPointer-uniqueptr.cpp">
+		<Unit filename="D:/study-cpp/chapter04/Code11_CircularReference.cpp">
 			<Option target="study_cpp"/>
 		</Unit>
 		<Unit filename="D:/study-cpp/CMakeLists.txt">

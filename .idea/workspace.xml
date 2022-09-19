@@ -12,19 +12,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fc29ac6-143d-4eaf-9b31-80477cae1e9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter04/Code10_IntellgentPointer-sharedptrAndweakptr.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/Code11_CircularReference.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter04/13.智能指针" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/13.智能指针" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter04/Code09_IntellgentPointer-uniqueptr.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter04/Code09_IntellgentPointer-uniqueptr.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/study_cpp.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/study_cpp.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/study_cpp.exe" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,41 +51,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter04/13.智能指针">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="97" column="37" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+            <state relative-caret-position="2678">
+              <caret line="103" column="43" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter04/Code09_IntellgentPointer-uniqueptr.cpp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter04/Code11_CircularReference.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="196">
+              <caret line="67" column="16" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
               <folding>
                 <element signature="e#41#60#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../soft/ide/anzhuangbao/msys64/mingw64/include/c++/12.1.0/bits/unique_ptr.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="397" selection-start-line="397" selection-end-line="397" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../soft/ide/anzhuangbao/msys64/mingw64/include/c++/12.1.0/tuple">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="1380" selection-start-line="1380" selection-end-line="1380" />
             </state>
           </provider>
         </entry>
@@ -101,8 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter02/Code01_CountOperator.cpp" />
-        <option value="$PROJECT_DIR$/chapter02/Code02_RelationOperator.cpp" />
         <option value="$PROJECT_DIR$/chapter02/Code03_LogicOperator.cpp" />
         <option value="$PROJECT_DIR$/chapter02/Code04_AssignOperator.cpp" />
         <option value="$PROJECT_DIR$/chapter02/Code05_BitOperator.cpp" />
@@ -149,15 +132,17 @@
         <option value="$PROJECT_DIR$/chapter04/Code07_StorageAreaDivide.cpp" />
         <option value="$PROJECT_DIR$/chapter04/12.内存泄露" />
         <option value="$PROJECT_DIR$/chapter04/Code08_IntelligentPointer.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/chapter04/Code09_IntellgentPointer-uniqueptr.cpp" />
         <option value="$PROJECT_DIR$/chapter04/13.智能指针" />
+        <option value="$PROJECT_DIR$/chapter04/Code10_IntellgentPointer-sharedptrAndweakptr.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/chapter04/Code11_CircularReference.cpp" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="247" />
-    <option name="y" value="772" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="913" />
+    <option name="y" value="26" />
     <option name="width" value="1425" />
     <option name="height" value="960" />
   </component>
@@ -242,15 +227,17 @@
       <workItem from="1662567313031" duration="5451000" />
       <workItem from="1663000161257" duration="5630000" />
       <workItem from="1663031343974" duration="14000" />
-      <workItem from="1663166007633" duration="4573000" />
+      <workItem from="1663166007633" duration="6333000" />
+      <workItem from="1663347179449" duration="595000" />
+      <workItem from="1663598211952" duration="3498000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109153000" />
+    <option name="totallyTimeSpent" value="115006000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="198" y="618" width="1140" height="768" extended-state="1" />
+    <frame x="731" y="21" width="1140" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2245841" />
@@ -258,14 +245,14 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297546" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38679245" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38679245" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.51699716" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32152975" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.53532183" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.3207547" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5345912" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3297546" />
@@ -330,20 +317,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter02/运算符表达式和基本语句">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02/Code06_MiscellaneousOperator.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/补码">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1794">
@@ -663,20 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../soft/ide/anzhuangbao/msys64/mingw64/include/c++/12.1.0/tuple">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="1380" selection-start-line="1380" selection-end-line="1380" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../soft/ide/anzhuangbao/msys64/mingw64/include/c++/12.1.0/bits/unique_ptr.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
@@ -694,10 +653,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../soft/ide/anzhuangbao/msys64/mingw64/include/c++/12.1.0/tuple">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="1380" selection-start-line="1380" selection-end-line="1380" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter04/13.智能指针">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="97" column="37" selection-start-line="97" selection-start-column="37" selection-end-line="97" selection-end-column="37" />
+        <state relative-caret-position="2678">
+          <caret line="103" column="43" selection-start-line="103" selection-start-column="43" selection-end-line="103" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/Code10_IntellgentPointer-sharedptrAndweakptr.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/Code11_CircularReference.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="67" column="16" lean-forward="true" selection-start-line="67" selection-start-column="16" selection-end-line="67" selection-end-column="16" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
