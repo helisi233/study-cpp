@@ -12,8 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fc29ac6-143d-4eaf-9b31-80477cae1e9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter04/14.引用" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter04/Code12_Quote.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/01.图灵机与三种基本结构" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/02.if语句基础" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/Code01_IfPractice.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/DependInfo.cmake" afterDir="false" />
@@ -45,23 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter04/Code12_Quote.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-              <folding>
-                <element signature="e#41#60#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter04/14.引用">
+        <entry file="file://$PROJECT_DIR$/chapter05/Code01_IfPractice.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+            <state relative-caret-position="158">
+              <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -80,9 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter02/Code05_BitOperator.cpp" />
-        <option value="$PROJECT_DIR$/chapter02/运算符表达式和基本语句" />
-        <option value="$PROJECT_DIR$/chapter02/Code06_MiscellaneousOperator.cpp" />
         <option value="$PROJECT_DIR$/chapter02/字节序" />
         <option value="$PROJECT_DIR$/chapter02/Code07_BitOperationIllustrate.cpp" />
         <option value="$PROJECT_DIR$/chapter02/补码" />
@@ -128,15 +114,18 @@
         <option value="$PROJECT_DIR$/chapter04/13.智能指针" />
         <option value="$PROJECT_DIR$/chapter04/Code10_IntellgentPointer-sharedptrAndweakptr.cpp" />
         <option value="$PROJECT_DIR$/chapter04/Code11_CircularReference.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/chapter04/Code12_Quote.cpp" />
         <option value="$PROJECT_DIR$/chapter04/14.引用" />
+        <option value="$PROJECT_DIR$/chapter05/01.图灵机与三种基本结构" />
+        <option value="$PROJECT_DIR$/chapter05/02.if语句基础" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/chapter05/Code01_IfPractice.cpp" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="212" />
-    <option name="y" value="43" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="447" />
+    <option name="y" value="38" />
     <option name="width" value="1425" />
     <option name="height" value="960" />
   </component>
@@ -157,7 +146,7 @@
             <path>
               <item name="study_cpp" type="b2602c69:ProjectViewProjectNode" />
               <item name="study-cpp" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter04" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter05" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,15 +212,16 @@
       <workItem from="1663031343974" duration="14000" />
       <workItem from="1663166007633" duration="6333000" />
       <workItem from="1663347179449" duration="595000" />
-      <workItem from="1663598211952" duration="6764000" />
+      <workItem from="1663598211952" duration="7399000" />
+      <workItem from="1663771052392" duration="2526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118272000" />
+    <option name="totallyTimeSpent" value="121433000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="170" y="35" width="1140" height="768" extended-state="0" />
+    <frame x="358" y="31" width="1140" height="768" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2245841" />
@@ -239,14 +229,14 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297546" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38679245" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38679245" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.51699716" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3207547" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.5345912" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.53375196" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3297546" />
@@ -311,27 +301,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter02/Code07_BitOperationIllustrate.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02/位运算补充说明">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter03/Code01_Array.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter03/基础容器-数组">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1222">
@@ -667,6 +636,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/14.引用">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter04/Code12_Quote.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/01.图灵机与三种基本结构">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/02.if语句基础">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -674,20 +674,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/Code12_Quote.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter05/Code01_IfPractice.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding>
-            <element signature="e#41#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter04/14.引用">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+        <state relative-caret-position="158">
+          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
         </state>
       </provider>
     </entry>

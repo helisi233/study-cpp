@@ -3,4 +3,4 @@ project(study_cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(study_cpp chapter04/Code12_Quote.cpp)
+add_executable(study_cpp chapter05/Code01_IfPractice.cpp)

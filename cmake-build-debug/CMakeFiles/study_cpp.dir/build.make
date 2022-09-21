@@ -56,27 +56,27 @@ include CMakeFiles/study_cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/study_cpp.dir/flags.make
 
-CMakeFiles/study_cpp.dir/chapter04/Code12_Quote.cpp.obj: CMakeFiles/study_cpp.dir/flags.make
-CMakeFiles/study_cpp.dir/chapter04/Code12_Quote.cpp.obj: ../chapter04/Code12_Quote.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\study-cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/study_cpp.dir/chapter04/Code12_Quote.cpp.obj"
-	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\study_cpp.dir\chapter04\Code12_Quote.cpp.obj -c D:\study-cpp\chapter04\Code12_Quote.cpp
+CMakeFiles/study_cpp.dir/chapter05/Code01_IfPractice.cpp.obj: CMakeFiles/study_cpp.dir/flags.make
+CMakeFiles/study_cpp.dir/chapter05/Code01_IfPractice.cpp.obj: ../chapter05/Code01_IfPractice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\study-cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/study_cpp.dir/chapter05/Code01_IfPractice.cpp.obj"
+	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\study_cpp.dir\chapter05\Code01_IfPractice.cpp.obj -c D:\study-cpp\chapter05\Code01_IfPractice.cpp
 
-CMakeFiles/study_cpp.dir/chapter04/Code12_Quote.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/study_cpp.dir/chapter04/Code12_Quote.cpp.i"
-	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\study-cpp\chapter04\Code12_Quote.cpp > CMakeFiles\study_cpp.dir\chapter04\Code12_Quote.cpp.i
+CMakeFiles/study_cpp.dir/chapter05/Code01_IfPractice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/study_cpp.dir/chapter05/Code01_IfPractice.cpp.i"
+	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\study-cpp\chapter05\Code01_IfPractice.cpp > CMakeFiles\study_cpp.dir\chapter05\Code01_IfPractice.cpp.i
 
-CMakeFiles/study_cpp.dir/chapter04/Code12_Quote.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/study_cpp.dir/chapter04/Code12_Quote.cpp.s"
-	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\study-cpp\chapter04\Code12_Quote.cpp -o CMakeFiles\study_cpp.dir\chapter04\Code12_Quote.cpp.s
+CMakeFiles/study_cpp.dir/chapter05/Code01_IfPractice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/study_cpp.dir/chapter05/Code01_IfPractice.cpp.s"
+	D:\soft\ide\anzhuangbao\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\study-cpp\chapter05\Code01_IfPractice.cpp -o CMakeFiles\study_cpp.dir\chapter05\Code01_IfPractice.cpp.s
 
 # Object files for target study_cpp
 study_cpp_OBJECTS = \
-"CMakeFiles/study_cpp.dir/chapter04/Code12_Quote.cpp.obj"
+"CMakeFiles/study_cpp.dir/chapter05/Code01_IfPractice.cpp.obj"
 
 # External object files for target study_cpp
 study_cpp_EXTERNAL_OBJECTS =
 
-study_cpp.exe: CMakeFiles/study_cpp.dir/chapter04/Code12_Quote.cpp.obj
+study_cpp.exe: CMakeFiles/study_cpp.dir/chapter05/Code01_IfPractice.cpp.obj
 study_cpp.exe: CMakeFiles/study_cpp.dir/build.make
 study_cpp.exe: CMakeFiles/study_cpp.dir/linklibs.rsp
 study_cpp.exe: CMakeFiles/study_cpp.dir/objects1.rsp

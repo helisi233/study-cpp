@@ -122,32 +122,32 @@ study_cpp/fast:
 	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/build
 .PHONY : study_cpp/fast
 
-chapter04/Code12_Quote.obj: chapter04/Code12_Quote.cpp.obj
+chapter05/Code01_IfPractice.obj: chapter05/Code01_IfPractice.cpp.obj
 
-.PHONY : chapter04/Code12_Quote.obj
+.PHONY : chapter05/Code01_IfPractice.obj
 
 # target to build an object file
-chapter04/Code12_Quote.cpp.obj:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code12_Quote.cpp.obj
-.PHONY : chapter04/Code12_Quote.cpp.obj
+chapter05/Code01_IfPractice.cpp.obj:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter05/Code01_IfPractice.cpp.obj
+.PHONY : chapter05/Code01_IfPractice.cpp.obj
 
-chapter04/Code12_Quote.i: chapter04/Code12_Quote.cpp.i
+chapter05/Code01_IfPractice.i: chapter05/Code01_IfPractice.cpp.i
 
-.PHONY : chapter04/Code12_Quote.i
+.PHONY : chapter05/Code01_IfPractice.i
 
 # target to preprocess a source file
-chapter04/Code12_Quote.cpp.i:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code12_Quote.cpp.i
-.PHONY : chapter04/Code12_Quote.cpp.i
+chapter05/Code01_IfPractice.cpp.i:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter05/Code01_IfPractice.cpp.i
+.PHONY : chapter05/Code01_IfPractice.cpp.i
 
-chapter04/Code12_Quote.s: chapter04/Code12_Quote.cpp.s
+chapter05/Code01_IfPractice.s: chapter05/Code01_IfPractice.cpp.s
 
-.PHONY : chapter04/Code12_Quote.s
+.PHONY : chapter05/Code01_IfPractice.s
 
 # target to generate assembly for a file
-chapter04/Code12_Quote.cpp.s:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter04/Code12_Quote.cpp.s
-.PHONY : chapter04/Code12_Quote.cpp.s
+chapter05/Code01_IfPractice.cpp.s:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter05/Code01_IfPractice.cpp.s
+.PHONY : chapter05/Code01_IfPractice.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... study_cpp
 	@echo ... rebuild_cache
-	@echo ... chapter04/Code12_Quote.obj
-	@echo ... chapter04/Code12_Quote.i
-	@echo ... chapter04/Code12_Quote.s
+	@echo ... chapter05/Code01_IfPractice.obj
+	@echo ... chapter05/Code01_IfPractice.i
+	@echo ... chapter05/Code01_IfPractice.s
 .PHONY : help
 
 

@@ -1,0 +1,47 @@
+复合语句
+    单一语句
+        在任何一个表达式后面加上分号
+        c = a + b;
+        cout << "hello world" << endl;
+    复合语句
+        用一对花括号{}括起来的语句块 在语法上等效于一个单一的语句
+
+if语句
+    常用的一种分支语句，页称为条件语句
+    if(p != NULL)
+    {
+        cout << *p << endl;
+    }
+    else
+    {
+        ;
+    }
+    编程习惯：加上大括号，即使if后面的语句是单一语句
+
+    单分支语句
+        if(p != NULL)
+        {
+            cout << *p << endl;
+        }
+    双分支语句
+        if(p != NULL)
+        {
+            cout << *p << endl;
+        }
+        else
+        {
+            cout << "no pointer" << endl;
+        }
+    多分支语句
+        if(today == "星期一")
+        {
+            todo;
+        }
+        else if(today == "星期一")
+        {
+            todo;
+        }
+        else
+        {
+            todo;
+        }
