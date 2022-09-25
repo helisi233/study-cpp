@@ -122,32 +122,32 @@ study_cpp/fast:
 	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/build
 .PHONY : study_cpp/fast
 
-chapter05/Code01_IfPractice.obj: chapter05/Code01_IfPractice.cpp.obj
+chapter05/Code05_LoopPractice.obj: chapter05/Code05_LoopPractice.cpp.obj
 
-.PHONY : chapter05/Code01_IfPractice.obj
+.PHONY : chapter05/Code05_LoopPractice.obj
 
 # target to build an object file
-chapter05/Code01_IfPractice.cpp.obj:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter05/Code01_IfPractice.cpp.obj
-.PHONY : chapter05/Code01_IfPractice.cpp.obj
+chapter05/Code05_LoopPractice.cpp.obj:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter05/Code05_LoopPractice.cpp.obj
+.PHONY : chapter05/Code05_LoopPractice.cpp.obj
 
-chapter05/Code01_IfPractice.i: chapter05/Code01_IfPractice.cpp.i
+chapter05/Code05_LoopPractice.i: chapter05/Code05_LoopPractice.cpp.i
 
-.PHONY : chapter05/Code01_IfPractice.i
+.PHONY : chapter05/Code05_LoopPractice.i
 
 # target to preprocess a source file
-chapter05/Code01_IfPractice.cpp.i:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter05/Code01_IfPractice.cpp.i
-.PHONY : chapter05/Code01_IfPractice.cpp.i
+chapter05/Code05_LoopPractice.cpp.i:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter05/Code05_LoopPractice.cpp.i
+.PHONY : chapter05/Code05_LoopPractice.cpp.i
 
-chapter05/Code01_IfPractice.s: chapter05/Code01_IfPractice.cpp.s
+chapter05/Code05_LoopPractice.s: chapter05/Code05_LoopPractice.cpp.s
 
-.PHONY : chapter05/Code01_IfPractice.s
+.PHONY : chapter05/Code05_LoopPractice.s
 
 # target to generate assembly for a file
-chapter05/Code01_IfPractice.cpp.s:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter05/Code01_IfPractice.cpp.s
-.PHONY : chapter05/Code01_IfPractice.cpp.s
+chapter05/Code05_LoopPractice.cpp.s:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter05/Code05_LoopPractice.cpp.s
+.PHONY : chapter05/Code05_LoopPractice.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... study_cpp
 	@echo ... rebuild_cache
-	@echo ... chapter05/Code01_IfPractice.obj
-	@echo ... chapter05/Code01_IfPractice.i
-	@echo ... chapter05/Code01_IfPractice.s
+	@echo ... chapter05/Code05_LoopPractice.obj
+	@echo ... chapter05/Code05_LoopPractice.i
+	@echo ... chapter05/Code05_LoopPractice.s
 .PHONY : help
 
 

@@ -1,0 +1,25 @@
+switch语句结构
+
+    switch(表达式)     表达式的结果必须是常数值
+    {
+        case 常数1:
+        {
+            todo;
+            break;  每个case语句块都需要加上break 否则会继续往下运行 进入其他case语句块
+        }
+        case 常数2:
+        {
+            todo;
+            break;
+        }
+        case 常数3:
+        {
+            todo;
+            break;
+        }
+        default:    当上面的case都没有命中 会执行default语句块里面的逻辑
+        {
+            todo;
+            break;
+        }
+    }

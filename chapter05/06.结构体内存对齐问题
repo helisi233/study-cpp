@@ -1,0 +1,72 @@
+字段顺序不同导致相同意义的结构体占用内存不同
+    struct s1
+    {
+        char x;
+        int z;
+        short y;
+    }; ===> sizeof(s1)=12
+    struct s2
+    {
+        char x;
+        short y;
+        int z;
+    }; ===> sizeof(s2)=8
+
+结构体内存布局
+    32为CPU眼中的内存布局，以四个字节为一组（作为一个整体来看）
+    0       [] [] [] []
+    4       [] [] [] []
+    8       [] [] [] []
+    ...
+    2^n-4   [] [] [] []
+
+    s1的实际存储，*表示占用，-表示没有占用
+    struct s1   ===> 3 * 4 = 12
+    {
+        char x;     0 [*] [-] [-] [-]
+        int z;      4 [*] [*] [*] [*]
+        short y;    8 [*] [*] [-] [-]
+    };
+    struct s2   ===> 2 * 4 = 8
+    {
+        char x;     0 [*] [-] [*] [*]
+        short y;    4 [*] [*] [*] [*]
+        int z;
+    }
+
+    内存分配时要考虑变量最大类型的占用空间，分配的最小单元是最大类型的整数倍
+    struct s3   ===> 4 * 4 = 16
+    {
+        char x;     0 [*] [-] [*] [*]
+        short y;    4 [-] [-] [-] [-]
+        double z;   8 [*] [*] [*] [*]
+    }               12[*] [*] [*] [*]
+
+缺省对齐原则
+    32位CPU
+        char    任何地址
+        short   偶数地址
+        int     4的整数倍地址
+        double  8的整数倍地址
+    修改默认编译选项
+        n是几就对几对齐 如果想连续分配内存设置n=1
+        visual c++
+            #pragma pack(n)
+        g++
+            __attribute__(aligned(n))
+            __attribute__(__packed__)
+
+#pragma pack(1)
+    struct s1
+    {
+        char x;     0 [*] [*] [*] [*]
+        int z;      4 [*] [*] [*] [-]
+        short y;
+    };
+
+    struct s2
+    {
+        char x;     0 [*] [*] [*] [*]
+        short y;    4 [*] [*] [*] [-]
+        int z;
+    };

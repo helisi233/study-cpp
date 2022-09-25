@@ -1,0 +1,50 @@
+声明和定义
+    声明了一个枚举类型wT，这个枚举类型包含了星期一~星期天，定义了一个数据类型
+    enum wT {Monday,Tuesday,Webnesday,Thursday,Firday,Saturday,Sunday};
+    定义了枚举类型的变量，可以对weekday赋值
+    wT weekday;
+
+    声明
+        告诉编译器，就这样一个类型的变量，但是没有给它分配空间
+    定义
+        程序内部需要给它分配空间
+枚举
+    使用#define和const创建符号常量 使用enum不仅能够创建符号常量 还能定义新的数据类型
+    使用细节
+        枚举值不可以做左值
+        非枚举变量不可以赋值给枚举变量
+        枚举变量可以赋值给非枚举变量
+
+结构体、联合体
+    使用struct定义的是结构体
+        struct Student
+        {
+            char name[6];
+            int age;
+            Score s;
+        };
+    使用union定义的是联合体 联合体内的变量使用同一块空间
+        union Score
+        {
+            double sc;
+            char level;
+        };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
