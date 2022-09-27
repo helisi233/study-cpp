@@ -12,27 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fc29ac6-143d-4eaf-9b31-80477cae1e9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter05/03.switch语句基础" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/04.if和switch的区别" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/05.自定义结构" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/06.结构体内存对齐问题" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/07.循环语句" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/Code02_SwitchPractice.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/Code03_CostumizeStruct-enum.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/Code04_Costumize-structunion.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter05/Code05_LoopPractice.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter05/08.函数" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter05/Code05_LoopPractice.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter05/Code05_LoopPractice.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/chapter05/Code05_LoopPractice.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/chapter05/Code05_LoopPractice.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/study_cpp.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/study_cpp.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/study_cpp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/study_cpp.exe" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -57,23 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter05/07.循环语句">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter05/Code05_LoopPractice.cpp">
+        <entry file="file://$PROJECT_DIR$/chapter05/08.函数">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-329">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="e#41#60#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -92,7 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter03/Code03_2DArray.cpp" />
         <option value="$PROJECT_DIR$/chapter03/数组的增删改查及二维数组" />
         <option value="$PROJECT_DIR$/chapter03/动态数组vector" />
         <option value="$PROJECT_DIR$/chapter03/Code04_Vector.cpp" />
@@ -143,12 +114,13 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/chapter05/07.循环语句" />
         <option value="$PROJECT_DIR$/chapter05/Code05_LoopPractice.cpp" />
+        <option value="$PROJECT_DIR$/chapter05/08.函数" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="715" />
-    <option name="y" value="63" />
+    <option name="x" value="397" />
+    <option name="y" value="681" />
     <option name="width" value="1425" />
     <option name="height" value="960" />
   </component>
@@ -237,12 +209,12 @@
       <workItem from="1663347179449" duration="595000" />
       <workItem from="1663598211952" duration="7399000" />
       <workItem from="1663771052392" duration="2641000" />
-      <workItem from="1664086385114" duration="10009000" />
+      <workItem from="1664086385114" duration="11764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131557000" />
+    <option name="totallyTimeSpent" value="133312000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -254,8 +226,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="572" y="51" width="1140" height="768" extended-state="0" />
-    <editor active="true" />
+    <frame x="318" y="545" width="1140" height="768" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2245841" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -331,11 +302,6 @@
           <line>31</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/chapter05/Code05_LoopPractice.cpp</url>
-          <line>62</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -364,13 +330,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter03/字符串的指针表示">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter03/Code06_StringAndPointer.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
@@ -729,6 +688,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/Code05_LoopPractice.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="e#41#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter05/07.循环语句">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="454">
@@ -743,13 +712,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter05/Code05_LoopPractice.cpp">
+    <entry file="file://$PROJECT_DIR$/chapter05/08.函数">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-329">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#41#60#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
     </entry>
