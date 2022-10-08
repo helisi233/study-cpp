@@ -1,0 +1,13 @@
+指向函数的指针
+    每一个函数都占用一段内存单元，它们有一个起始地址，指向函数入口地址的指针称为函数指针
+    一般形式
+        函数返回数据类型(*指针变量名)(函数参数表类型);
+    举例
+        int(*p)(int);
+
+与返回指针的函数之间区别
+    int(*p)(int);   是指针，指向一个函数的入口地址
+    int* p(int);    是函数，返回的值是一个指针
+    再如
+        bool ProcessNum(int i,int j,int(*p)(int a, int b));
+        char *strcpy(char *dest,const char *src);

@@ -1,0 +1,14 @@
+函数重载overload与C++ Name Mangling
+
+函数重载
+    函数名相同 返回值相同 参数列表不同
+    int test(int a);
+    int test(double a);
+    int test(int a, double d);
+
+Name Mangling
+    解决函数重载 引入函数签名
+    在生成的中间文件中
+    ?test@@YAHH@Z   ==> int test(int)
+    ?test@@YAHN@Z   ==> int test(double)
+    ?test@@YAHHN@Z  ==> int test(int,double)
