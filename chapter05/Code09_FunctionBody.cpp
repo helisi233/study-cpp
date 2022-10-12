@@ -66,3 +66,61 @@ int main(void)
  *      将ebp弹出，恢复最初的栈信息
  * 00C016B1     ret
  * */
+
+/*
+ *  MSVC生成的汇编代码 部分
+ *  带函数调用的main
+ *  int x = 3, y = 4;
+ *  009C16FE mov dword ptr[x],3
+ *  009C1705 mov dword ptr[y],4
+ *  MaxValue(x,y);
+ *  009C170C mov eax,dword ptr[y]
+ *  009C170F push eax
+ *  009C1710 mov ecx,dword ptr[x]
+ *  009C1713 push ecx
+ *  009C1714 call MaxValue(09C1348h)
+ *  009C1719 add esp,8
+ *
+ *  return 0;
+ *
+ *  int MaxValue(int a, int b)
+ *  {
+ *  009C1690 push ebp
+ *  009C1691 mov ebp,esp
+ *  009C1693 sub esp,0X4h
+ *  009C1699 push ebx
+ *  009C169A push esi
+ *  009C169B push edi
+ *  009C169C lea edi,[ebp-0C4h]
+ *  009C16A1 mov ecx,31h
+ *  009C16A7 mov eax,0CCCCCCCCh
+ *  009C16AC rep stos dword ptr es:[edi]
+ *    return (a > b) ? a : b;
+ *  009C16AE mov eax,dword ptr[a]
+ *  009C16B1 cmp eax,dword ptr[b]
+ *  009C16B4 jle MaxValue+31h (09C16C1h)
+ *  009C16B6 mov ecx,dword ptr[a]
+ *  009C16B9 mov dword ptr [ebp-0C4h],ecx
+ *  009C16BF jmp MaxValue+3Ah (09C16CAh)
+ *  009C16C1 mov edx,dword ptr[b]
+ *  009C16C4 mov dword ptr[ebp-0C4h],edx
+ *  }
+ * */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
