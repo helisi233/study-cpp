@@ -122,32 +122,32 @@ study_cpp/fast:
 	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/build
 .PHONY : study_cpp/fast
 
-chapter05/Code09_FunctionBody.obj: chapter05/Code09_FunctionBody.cpp.obj
+chapter05/Code10_InlineFunction.obj: chapter05/Code10_InlineFunction.cpp.obj
 
-.PHONY : chapter05/Code09_FunctionBody.obj
+.PHONY : chapter05/Code10_InlineFunction.obj
 
 # target to build an object file
-chapter05/Code09_FunctionBody.cpp.obj:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter05/Code09_FunctionBody.cpp.obj
-.PHONY : chapter05/Code09_FunctionBody.cpp.obj
+chapter05/Code10_InlineFunction.cpp.obj:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter05/Code10_InlineFunction.cpp.obj
+.PHONY : chapter05/Code10_InlineFunction.cpp.obj
 
-chapter05/Code09_FunctionBody.i: chapter05/Code09_FunctionBody.cpp.i
+chapter05/Code10_InlineFunction.i: chapter05/Code10_InlineFunction.cpp.i
 
-.PHONY : chapter05/Code09_FunctionBody.i
+.PHONY : chapter05/Code10_InlineFunction.i
 
 # target to preprocess a source file
-chapter05/Code09_FunctionBody.cpp.i:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter05/Code09_FunctionBody.cpp.i
-.PHONY : chapter05/Code09_FunctionBody.cpp.i
+chapter05/Code10_InlineFunction.cpp.i:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter05/Code10_InlineFunction.cpp.i
+.PHONY : chapter05/Code10_InlineFunction.cpp.i
 
-chapter05/Code09_FunctionBody.s: chapter05/Code09_FunctionBody.cpp.s
+chapter05/Code10_InlineFunction.s: chapter05/Code10_InlineFunction.cpp.s
 
-.PHONY : chapter05/Code09_FunctionBody.s
+.PHONY : chapter05/Code10_InlineFunction.s
 
 # target to generate assembly for a file
-chapter05/Code09_FunctionBody.cpp.s:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter05/Code09_FunctionBody.cpp.s
-.PHONY : chapter05/Code09_FunctionBody.cpp.s
+chapter05/Code10_InlineFunction.cpp.s:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter05/Code10_InlineFunction.cpp.s
+.PHONY : chapter05/Code10_InlineFunction.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... edit_cache
 	@echo ... study_cpp
 	@echo ... rebuild_cache
-	@echo ... chapter05/Code09_FunctionBody.obj
-	@echo ... chapter05/Code09_FunctionBody.i
-	@echo ... chapter05/Code09_FunctionBody.s
+	@echo ... chapter05/Code10_InlineFunction.obj
+	@echo ... chapter05/Code10_InlineFunction.i
+	@echo ... chapter05/Code10_InlineFunction.s
 .PHONY : help
 
 

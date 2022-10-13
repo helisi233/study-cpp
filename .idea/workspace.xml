@@ -12,9 +12,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5fc29ac6-143d-4eaf-9b31-80477cae1e9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter05/Code10_InlineFunction.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter05/12.函数体" beforeDir="false" afterPath="$PROJECT_DIR$/chapter05/12.函数体" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter05/Code09_FunctionBody.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter05/Code09_FunctionBody.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter05/13.内联函数" beforeDir="false" afterPath="$PROJECT_DIR$/chapter05/13.内联函数" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/study_cpp.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/study_cpp.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/study_cpp.cbp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,25 +40,25 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="130">
-              <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter05/12.函数体">
+        <entry file="file://$PROJECT_DIR$/chapter05/13.内联函数">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="566">
+              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter05/Code09_FunctionBody.cpp">
+        <entry file="file://$PROJECT_DIR$/chapter05/Code10_InlineFunction.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="81" column="22" lean-forward="true" selection-start-line="80" selection-start-column="13" selection-end-line="81" selection-end-column="22" />
+            <state relative-caret-position="442">
+              <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -70,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapter03/字符串的基本操作和String" />
         <option value="$PROJECT_DIR$/chapter04/Code01_SimpleUsePointer.cpp" />
         <option value="$PROJECT_DIR$/chapter04/指针的概念" />
         <option value="$PROJECT_DIR$/chapter04/Code02_LeftValueRightValue.cpp" />
@@ -116,17 +122,18 @@
         <option value="$PROJECT_DIR$/chapter05/Code07_Pointer2Function.cpp" />
         <option value="$PROJECT_DIR$/chapter05/11.命名空间" />
         <option value="$PROJECT_DIR$/chapter05/Code08_NamespaceTest.cpp" />
-        <option value="$PROJECT_DIR$/chapter05/13.内联函数" />
         <option value="$PROJECT_DIR$/chapter05/Code09_FunctionBodyAssemblyLanguage.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/chapter05/Code09_FunctionBody.cpp" />
         <option value="$PROJECT_DIR$/chapter05/12.函数体" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/chapter05/Code10_InlineFunction.cpp" />
+        <option value="$PROJECT_DIR$/chapter05/13.内联函数" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1050" />
-    <option name="y" value="65" />
+    <option name="x" value="716" />
+    <option name="y" value="40" />
     <option name="width" value="1395" />
     <option name="height" value="970" />
   </component>
@@ -136,7 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -153,6 +159,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,12 +228,13 @@
       <workItem from="1664807472667" duration="5289000" />
       <workItem from="1665249833795" duration="2744000" />
       <workItem from="1665527850061" duration="457000" />
-      <workItem from="1665587561846" duration="1975000" />
+      <workItem from="1665587561846" duration="3440000" />
+      <workItem from="1665616827950" duration="2063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148013000" />
+    <option name="totallyTimeSpent" value="151541000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -238,7 +246,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="840" y="52" width="1116" height="776" extended-state="0" />
+    <frame x="573" y="32" width="1116" height="776" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22400756" />
@@ -253,7 +261,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32861635" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.31619936" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31937984" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31782946" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.3297546" />
@@ -353,13 +361,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter04/03.一般数组指针和指针数组">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter04/Code03_ArrayOfPointer_PointerOfArray.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -698,25 +699,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter05/13.内联函数">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter05/Code09_FunctionBodyAssemblyLanguage.cpp" />
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter05/Code09_FunctionBody.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="81" column="22" lean-forward="true" selection-start-line="80" selection-start-column="13" selection-end-line="81" selection-end-column="22" />
+        <state relative-caret-position="2106">
+          <caret line="81" column="22" selection-start-line="80" selection-start-column="13" selection-end-line="81" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -724,6 +711,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/Code10_InlineFunction.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter05/13.内联函数">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
         </state>
       </provider>
     </entry>
