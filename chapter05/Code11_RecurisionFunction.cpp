@@ -2,6 +2,9 @@
 // Created by helisi on 2022/10/17.
 //
 #include <iostream>
+#include <assert.h>
+
+int g_a[1000]; // 全局数组，存储前1000个斐波那契数
 
 using namespace std;
 
@@ -50,6 +53,15 @@ int Fib2(int num, int ret0, int ret1)
         return ret1;
     }
     // 尾递归不会保留堆栈信息
+    /*
+     *  尾递归汇编代码，编译器把递归优化成了循环
+     *  return Fib2(n-1, ret1, ret0+ret1); 没有发生call
+     *  lea     eax,[edx+esi]
+     *  mov     edx,esi
+     *  mov     esi,eax
+     *  sub     ecx,1
+     *  jne     Fib2+11h(0AA1520h)
+     * */
     return Fib2(num - 1, ret1, ret0 + ret1);
 }
 
@@ -70,10 +82,27 @@ int Fib3(int num)
     return n1;
 }
 
+int Fib4(int num)
+{
+    assert(num >= 0);
+    g_a[0] = 0;
+    g_a[1] = 1;
+    for (int i = 2; i <= num; ++i)
+    {
+        if(g_a[i] == 0)
+        {
+            g_a[i] = g_a[i-2] + g_a[i-1];
+        }
+    }
+    return g_a[num];
+}
+
 int main(void)
 {
-    cout << Fib(10) << endl;
-    cout << Fib2(10, 0, 1) << endl;
-    cout << Fib3(10) << endl;
+//    cout << Fib(10) << endl;
+//    cout << Fib2(10, 0, 1) << endl;
+//    cout << Fib3(10) << endl;
+//    cout << Fib4(10) << endl;
+    assert(Fib4(10) == 55);
     return 0;
 }

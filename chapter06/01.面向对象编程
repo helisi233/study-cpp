@@ -1,0 +1,29 @@
+面向对象-类
+    C++使用struct、class来定义一个类
+        struct的默认成员权限是public 外部（大括号范围外的地方）能直接看到且直接使用
+        class的默认成员权限是private 外部（大括号范围外的地方）看不到也使用不了
+        除此之外，二者基本无差别
+    举例
+        class Student {
+            private: // 成员变量
+                string name;
+                double score;
+            public: // 成员函数
+                double GetScore() {
+                    return score;
+                }
+        }
+        私有的成员score只能通过GetScore被外部访问
+        Student就是一个抽象，并不是真实世界中的学生，只是一个概念的抽象
+
+误区
+    对象是对现实世界中具体物体的反应，继承是对物体分类的反应？ 错误
+        正方形是一个特殊的长方形？问题改变长方形的一条边会改变正方形的全部
+        class rectangle {
+            virtual void SetLength(double a){xxx;}
+        }
+        class square: public rectangle {
+            virtual void SetLength(double a){yyy;}
+        }
+        不能拿现实世界直接搬到面向对象的抽象设计
+        将现实世界中的某些特点抽象出来
