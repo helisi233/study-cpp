@@ -122,32 +122,59 @@ study_cpp/fast:
 	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/build
 .PHONY : study_cpp/fast
 
-chapter05/Code11_RecurisionFunction.obj: chapter05/Code11_RecurisionFunction.cpp.obj
+chapter06/Complex.obj: chapter06/Complex.cpp.obj
 
-.PHONY : chapter05/Code11_RecurisionFunction.obj
+.PHONY : chapter06/Complex.obj
 
 # target to build an object file
-chapter05/Code11_RecurisionFunction.cpp.obj:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter05/Code11_RecurisionFunction.cpp.obj
-.PHONY : chapter05/Code11_RecurisionFunction.cpp.obj
+chapter06/Complex.cpp.obj:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter06/Complex.cpp.obj
+.PHONY : chapter06/Complex.cpp.obj
 
-chapter05/Code11_RecurisionFunction.i: chapter05/Code11_RecurisionFunction.cpp.i
+chapter06/Complex.i: chapter06/Complex.cpp.i
 
-.PHONY : chapter05/Code11_RecurisionFunction.i
+.PHONY : chapter06/Complex.i
 
 # target to preprocess a source file
-chapter05/Code11_RecurisionFunction.cpp.i:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter05/Code11_RecurisionFunction.cpp.i
-.PHONY : chapter05/Code11_RecurisionFunction.cpp.i
+chapter06/Complex.cpp.i:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter06/Complex.cpp.i
+.PHONY : chapter06/Complex.cpp.i
 
-chapter05/Code11_RecurisionFunction.s: chapter05/Code11_RecurisionFunction.cpp.s
+chapter06/Complex.s: chapter06/Complex.cpp.s
 
-.PHONY : chapter05/Code11_RecurisionFunction.s
+.PHONY : chapter06/Complex.s
 
 # target to generate assembly for a file
-chapter05/Code11_RecurisionFunction.cpp.s:
-	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter05/Code11_RecurisionFunction.cpp.s
-.PHONY : chapter05/Code11_RecurisionFunction.cpp.s
+chapter06/Complex.cpp.s:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter06/Complex.cpp.s
+.PHONY : chapter06/Complex.cpp.s
+
+chapter06/TestComplex.obj: chapter06/TestComplex.cpp.obj
+
+.PHONY : chapter06/TestComplex.obj
+
+# target to build an object file
+chapter06/TestComplex.cpp.obj:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter06/TestComplex.cpp.obj
+.PHONY : chapter06/TestComplex.cpp.obj
+
+chapter06/TestComplex.i: chapter06/TestComplex.cpp.i
+
+.PHONY : chapter06/TestComplex.i
+
+# target to preprocess a source file
+chapter06/TestComplex.cpp.i:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter06/TestComplex.cpp.i
+.PHONY : chapter06/TestComplex.cpp.i
+
+chapter06/TestComplex.s: chapter06/TestComplex.cpp.s
+
+.PHONY : chapter06/TestComplex.s
+
+# target to generate assembly for a file
+chapter06/TestComplex.cpp.s:
+	$(MAKE) -f CMakeFiles\study_cpp.dir\build.make CMakeFiles/study_cpp.dir/chapter06/TestComplex.cpp.s
+.PHONY : chapter06/TestComplex.cpp.s
 
 # Help Target
 help:
@@ -158,9 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... study_cpp
 	@echo ... rebuild_cache
-	@echo ... chapter05/Code11_RecurisionFunction.obj
-	@echo ... chapter05/Code11_RecurisionFunction.i
-	@echo ... chapter05/Code11_RecurisionFunction.s
+	@echo ... chapter06/Complex.obj
+	@echo ... chapter06/Complex.i
+	@echo ... chapter06/Complex.s
+	@echo ... chapter06/TestComplex.obj
+	@echo ... chapter06/TestComplex.i
+	@echo ... chapter06/TestComplex.s
 .PHONY : help
 
 
